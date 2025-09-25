@@ -74,8 +74,6 @@ python main.py
 ```
 You can adjust the language, round settings, participating players, and referees of the game by modifying the class **game_settings** and player/judge initialization information in `main.py`.
 
-Please note: The API KEY is hard-coded in the source code. Do not pass it to anyone who is not involved in this project.
-
 ## Game Flow
 
 1. **Initialization**:
