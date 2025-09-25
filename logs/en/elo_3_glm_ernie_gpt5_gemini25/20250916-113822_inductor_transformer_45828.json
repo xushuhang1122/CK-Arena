@@ -1,0 +1,645 @@
+{
+  "game_record": {
+    "game_id": "20250923-165213",
+    "timestamp": "2025-09-23T16:52:13.266496",
+    "topic_category": "electronic_elo3",
+    "concept_pair": {
+      "concept_a": "inductor",
+      "concept_b": "transformer"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "claude-opus-4-1-20250805",
+        "role": "civilian",
+        "assigned_concept": "inductor",
+        "eliminated_in_voting_round": 3,
+        "is_winner": false
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "inductor",
+        "eliminated_in_voting_round": null,
+        "is_winner": false
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "inductor",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 4,
+        "llm_id": "gemini-2.5-flash-preview-05-20",
+        "role": "civilian",
+        "assigned_concept": "inductor",
+        "eliminated_in_voting_round": 4,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "ernie-4.5-300b-a47b",
+        "role": "undercover",
+        "assigned_concept": "transformer",
+        "eliminated_in_voting_round": 1,
+        "is_winner": true
+      },
+      {
+        "player_id": 6,
+        "llm_id": "gpt-5",
+        "role": "undercover",
+        "assigned_concept": "transformer",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "An object used in electrical circuits.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "It stores energy temporarily when current flows through it.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 5,
+          "llm_id": "ernie-4.5-300b-a47b",
+          "content": "It can change the voltage level in an electrical system.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "It opposes changes in current flow.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "Its defining property is measured in Henries.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Copper windings on a core that operates via changing magnetic fields.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "It produces an inductive reactance in alternating current pathways.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "It is often used in power supplies to smooth out current fluctuations.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Faraday’s law governs it, and its characteristics vary noticeably with frequency and the properties of the core material.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "It can be used to filter out high-frequency noise in circuits.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "It creates a back EMF that resists sudden changes in electrical flow.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 12,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "Essential component in switching power converters and DC-DC regulators for energy storage and transfer.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 13,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Efficiency hinges on managing core hysteresis and eddy currents along with skin and proximity effects in the conductors.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 14,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "In an ideal alternating current circuit, the current flowing through it lags the voltage across it.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 15,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "It is commonly used in LC circuits to form resonant filters.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 16,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Parasitic capacitance leads to a self‑resonant frequency, beyond which its impedance stops looking purely inductive and can even trend capacitive.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 17,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "It can be used in conjunction with capacitors to create bandpass or bandstop filters in RF applications.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 18,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "The energy stored within it is proportional to the square of the current passing through it.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 4,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 5,
+              "llm_id": "ernie-4.5-300b-a47b",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 3,
+              "llm_id": "qwen2.5-72b",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 3,
+          "after_statement_round": 3,
+          "after_statement_id": 15,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 1
+            }
+          ],
+          "vote_results": {
+            "1": 1,
+            "2": 0,
+            "4": 0,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 1,
+              "llm_id": "claude-opus-4-1-20250805",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 4,
+          "after_statement_round": 4,
+          "after_statement_id": 18,
+          "votes": [
+            {
+              "voter_id": 2,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 4
+            }
+          ],
+          "vote_results": {
+            "2": 0,
+            "4": 1,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "gemini-2.5-flash-preview-05-20",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 4,
+      "total_voting_rounds": 4,
+      "total_statements": 18,
+      "winner_role": "undercover",
+      "winner_ids": [
+        5,
+        6
+      ],
+      "correct_identifications": 1,
+      "incorrect_identifications": 3,
+      "game_decision_quality": 0.25
+    },
+    "game_analysis": {}
+  }
+}

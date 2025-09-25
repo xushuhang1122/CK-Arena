@@ -1,0 +1,424 @@
+{
+  "game_record": {
+    "game_id": "20250915-202718",
+    "timestamp": "2025-09-15T20:27:18.701741",
+    "topic_category": "reasoner_test",
+    "concept_pair": {
+      "concept_a": "Library",
+      "concept_b": "bookstore"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "qwq-plus",
+        "role": "undercover",
+        "assigned_concept": "bookstore",
+        "eliminated_in_voting_round": 1,
+        "is_winner": false
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-r1",
+        "role": "civilian",
+        "assigned_concept": "Library",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "gemini-2.5-pro-thinking",
+        "role": "civilian",
+        "assigned_concept": "Library",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "o1",
+        "role": "civilian",
+        "assigned_concept": "Library",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 5,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "Library",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 6,
+        "llm_id": "qwen2.5-72b",
+        "role": "undercover",
+        "assigned_concept": "bookstore",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "A place where knowledge is freely accessed and quiet reflection is encouraged.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "A place where you can purchase physical books and browse through different genres.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 3,
+          "llm_id": "gemini-2.5-pro-thinking",
+          "content": "You are expected to return what you take from here after a certain period.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "Many volumes are meticulously arranged in different sections, inviting visitors to explore them freely for both study and pleasure.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 5,
+          "llm_id": "deepseek-v3",
+          "content": "A quiet sanctuary where people come to borrow books, study, and sometimes attend community events.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "A place where you can find a wide variety of reading materials, from bestsellers to niche topics, often with a cozy corner to sit and read.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "A place where you can find both new and used books, often with a section for rare and collectible editions.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 3,
+          "llm_id": "gemini-2.5-pro-thinking",
+          "content": "This place often provides free access to computers and the internet for the public.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "Staff here assist visitors in researching topics using specialized reference materials and databases.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "This place often has dedicated areas for children, hosting storytime sessions to spark early reading interest.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 5,
+          "llm_id": "deepseek-v3",
+          "content": "This place often collaborates with local schools to promote literacy programs and host author visits.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 4,
+            "2": 0,
+            "3": 2,
+            "4": 0,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 1,
+              "llm_id": "qwq-plus",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 2,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 3
+          },
+          "eliminated": [
+            {
+              "player_id": 6,
+              "llm_id": "qwen2.5-72b",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 2,
+      "total_voting_rounds": 2,
+      "total_statements": 11,
+      "winner_role": "civilian",
+      "winner_ids": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 0,
+      "game_decision_quality": 1.0
+    },
+    "game_analysis": {}
+  }
+}

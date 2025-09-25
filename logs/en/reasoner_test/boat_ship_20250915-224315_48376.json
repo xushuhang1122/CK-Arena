@@ -1,0 +1,647 @@
+{
+  "game_record": {
+    "game_id": "20250915-222338",
+    "timestamp": "2025-09-15T22:23:38.137635",
+    "topic_category": "reasoner_test",
+    "concept_pair": {
+      "concept_a": "boat",
+      "concept_b": "ship"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "qwq-plus",
+        "role": "civilian",
+        "assigned_concept": "boat",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-r1",
+        "role": "civilian",
+        "assigned_concept": "boat",
+        "eliminated_in_voting_round": 3,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "gemini-2.5-pro-thinking",
+        "role": "civilian",
+        "assigned_concept": "boat",
+        "eliminated_in_voting_round": 1,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "o1",
+        "role": "undercover",
+        "assigned_concept": "ship",
+        "eliminated_in_voting_round": 4,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "deepseek-v3",
+        "role": "undercover",
+        "assigned_concept": "ship",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 6,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "boat",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 3,
+          "llm_id": "gemini-2.5-pro-thinking",
+          "content": "It relies on the principle of buoyancy to function.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "It is commonly used for transportation over water.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "It can be moved using sails, motors, or paddles.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "It often carries numerous passengers or cargo across significant distances on the water.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 5,
+          "llm_id": "deepseek-v3",
+          "content": "It can be found in various sizes, from small personal vessels to massive ocean liners.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "It's frequently used for leisure activities like fishing or sightseeing on lakes or coastal areas.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "It is steered using a wheel or tiller to control direction.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 5,
+          "llm_id": "deepseek-v3",
+          "content": "It can be equipped with radar and navigation systems for long voyages.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "It can be used for both commercial and recreational purposes.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "It often docks at harbors or piers to load and unload passengers or cargo during long voyages.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "It typically drops anchor or uses mooring lines when stationary in water.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 12,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "It often includes specialized safety features and emergency rafts to ensure compliance with maritime regulations on longer journeys.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 13,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "It requires regular maintenance to ensure the hull remains intact and watertight.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 14,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "It can easily navigate shallow rivers and coastlines due to its draft.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 15,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "It can be used for rescue operations and emergency services on the water.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 16,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "It can be categorized by its tonnage or cargo type, with certain variants designed to cross entire oceans.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 17,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "It plays a crucial role in connecting remote communities and facilitating trade across bodies of water.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 18,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "Its design includes a streamlined hull to reduce water resistance.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 1,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 3,
+              "llm_id": "gemini-2.5-pro-thinking",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 2
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 2,
+            "4": 0,
+            "5": 2,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 5,
+              "llm_id": "deepseek-v3",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 3,
+          "after_statement_round": 3,
+          "after_statement_id": 15,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 2
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 3,
+            "4": 1,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 2,
+              "llm_id": "deepseek-r1",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 4,
+          "after_statement_round": 4,
+          "after_statement_id": 18,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 4
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "4": 2,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "o1",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 4,
+      "total_voting_rounds": 4,
+      "total_statements": 18,
+      "winner_role": "civilian",
+      "winner_ids": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 2,
+      "game_decision_quality": 0.5
+    },
+    "game_analysis": {}
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "game_record": {
+    "game_id": "20250916-101554",
+    "timestamp": "2025-09-16T10:15:54.260264",
+    "topic_category": "elo_3_glm_ernie_gpt5_gemini25",
+    "concept_pair": {
+      "concept_a": "rose",
+      "concept_b": "tulip"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "claude-opus-4-1-20250805",
+        "role": "undercover",
+        "assigned_concept": "tulip",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-v3",
+        "role": "undercover",
+        "assigned_concept": "tulip",
+        "eliminated_in_voting_round": 1,
+        "is_winner": false
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "rose",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "gemini-2.5-flash-preview-05-20",
+        "role": "civilian",
+        "assigned_concept": "rose",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 5,
+        "llm_id": "ernie-4.5-300b-a47b",
+        "role": "civilian",
+        "assigned_concept": "rose",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 6,
+        "llm_id": "gpt-5",
+        "role": "civilian",
+        "assigned_concept": "rose",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 5,
+          "llm_id": "ernie-4.5-300b-a47b",
+          "content": "A popular flower known for its beauty and fragrance.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "A symbol often associated with love and romance.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "A flower that blooms in spring and is often seen in gardens and bouquets.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "It often has sharp defensive features on its stem.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Typically given as long-stemmed blooms with tightly layered petals, often in deep red.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "This flower comes in a variety of vibrant colors and is often associated with the Netherlands.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "A classic choice for special occasions and celebrations, cultivated in many varieties worldwide.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "Often used in floral arrangements and perfumes, it has a rich cultural and historical significance.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "A staple for Valentine’s Day bouquets, often purchased by the dozen.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "Its growth habits vary greatly, from low-growing groundcover to tall climbing varieties.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 5,
+          "llm_id": "ernie-4.5-300b-a47b",
+          "content": "It is frequently featured in literature and art as a symbol of elegance and passion.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 2
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 4,
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 2,
+              "llm_id": "deepseek-v3",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 1
+            }
+          ],
+          "vote_results": {
+            "1": 2,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 1,
+              "llm_id": "claude-opus-4-1-20250805",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 2,
+      "total_voting_rounds": 2,
+      "total_statements": 11,
+      "winner_role": "civilian",
+      "winner_ids": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 0,
+      "game_decision_quality": 1.0
+    },
+    "game_analysis": {}
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "game_record": {
+    "game_id": "20250915-195510",
+    "timestamp": "2025-09-15T19:55:10.460291",
+    "topic_category": "reasoner_test",
+    "concept_pair": {
+      "concept_a": "file",
+      "concept_b": "grinder"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "qwq-plus",
+        "role": "undercover",
+        "assigned_concept": "grinder",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-r1",
+        "role": "undercover",
+        "assigned_concept": "grinder",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "gemini-2.5-pro-thinking",
+        "role": "civilian",
+        "assigned_concept": "file",
+        "eliminated_in_voting_round": null,
+        "is_winner": false
+      },
+      {
+        "player_id": 4,
+        "llm_id": "o1",
+        "role": "civilian",
+        "assigned_concept": "file",
+        "eliminated_in_voting_round": -1,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "file",
+        "eliminated_in_voting_round": null,
+        "is_winner": false
+      },
+      {
+        "player_id": 6,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "file",
+        "eliminated_in_voting_round": -1,
+        "is_winner": false
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "It reduces solid materials into finer particles through mechanical force.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "It breaks down objects into smaller pieces.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "It is a tool commonly used to modify the surface of materials.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 1
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "It gradually removes small portions of material through repeated friction.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 1
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [],
+      "metric_eliminations": [
+        {
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "role": "civilian",
+          "elimination_round": 1,
+          "elimination_reason": "Low reasonableness",
+          "metrics": {
+            "reasonableness_eliminate": 1,
+            "novelty_eliminate": 0
+          }
+        },
+        {
+          "player_id": 4,
+          "llm_id": "o1",
+          "role": "civilian",
+          "elimination_round": 1,
+          "elimination_reason": "Low reasonableness",
+          "metrics": {
+            "reasonableness_eliminate": 1,
+            "novelty_eliminate": 0
+          }
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 1,
+      "total_voting_rounds": 0,
+      "total_statements": 4,
+      "winner_role": "undercover",
+      "winner_ids": [
+        1,
+        2
+      ],
+      "correct_identifications": 0,
+      "incorrect_identifications": 0,
+      "game_decision_quality": 0
+    },
+    "game_analysis": {}
+  }
+}

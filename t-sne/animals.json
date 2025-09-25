@@ -1,0 +1,1738 @@
+[
+  {
+    "statement": "A small flying insect that plays a crucial role in pollination.",
+    "llm_id": "deepseek-v3",
+    "concept": "bee",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "It is known for producing a sweet, golden liquid.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "bee",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "An organism that lives in complex social structures with a hierarchical organization",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bee",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "A creature that is often associated with hard work and diligence.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "bee",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "An insect that undergoes a transformation during its life cycle.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "butterfly",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "It has a distinct way of moving through the air, characterized by a unique pattern of movement.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "butterfly",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "This insect is often seen collecting nectar from flowers and is essential for the production of many fruits and vegetables.",
+    "llm_id": "deepseek-v3",
+    "concept": "bee",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "It defends itself with a stinger.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "bee",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "It has a life cycle that involves a dramatic change in form, from a crawling creature to a flying one, and is often found near flowers.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "butterfly",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "A creature that communicates through complex dance-like movements to share information with its colony",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bee",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "This creature is known for its importance in ecosystems and its ability to communicate complex information.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "bee",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-031447"
+  },
+  {
+    "statement": "A large mammal with a long trunk and big ears.",
+    "llm_id": "deepseek-v3",
+    "concept": "elephant",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "A towering creature found in the savanna.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "giraffe",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Possesses remarkable memory and complex social structures within its group",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "elephant",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Their tusks are made of ivory.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "elephant",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Known for their gentle nature and strong family bonds.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "elephant",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "It has a distinctive coat pattern that helps with camouflage in its natural habitat.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "giraffe",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Has a unique way of reaching high places for food.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "giraffe",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Communicates through low-frequency rumbles that can travel long distances",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "elephant",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "They require a significant amount of vegetation to sustain their massive size.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "elephant",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "They use their trunks not only for breathing but also for drinking and grasping objects.",
+    "llm_id": "deepseek-v3",
+    "concept": "elephant",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Their skin is thick and wrinkled, providing protection against the sun and parasites.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "elephant",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Elephants are known for their intelligence and ability to use tools, such as using branches to swat flies.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "elephant",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Has a long neck that aids in reaching food in tree canopies.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "giraffe",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Can navigate complex terrains like forests and savannas with surprising agility despite their large size",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "elephant",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Their large ears help regulate their body temperature in hot climates.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "elephant",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "Spends most of its time grazing in open areas.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "giraffe",
+    "statement_id": 16,
+    "statement_round": 4,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "They are often poached for their ivory tusks, leading to conservation efforts to protect them.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "elephant",
+    "statement_id": 17,
+    "statement_round": 4,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "These animals are capable of displaying complex emotional behaviors, including mourning their dead and showing empathy towards other members of their species",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "elephant",
+    "statement_id": 18,
+    "statement_round": 4,
+    "game_id": "20250505-220156"
+  },
+  {
+    "statement": "It is a large living thing.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "elephant",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "It is known for having a long nose.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "elephant",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "It has a distinctive feature that sets it apart from other animals.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "elephant",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "It is known for its impressive size.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "mammoth",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "It lives in herds and is commonly found in African and Asian landscapes",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "elephant",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "It has large, curved tusks.",
+    "llm_id": "deepseek-v3",
+    "concept": "mammoth",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "This creature has significant cultural and ecological importance in its native habitats",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "elephant",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "They are herbivores and consume large quantities of vegetation.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "elephant",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "This animal is known for its ability to communicate over long distances using low-frequency sounds.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "elephant",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "It is known for having a thick, hairy covering.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "mammoth",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "This animal has been a subject of fascination in both ancient art and modern media.",
+    "llm_id": "deepseek-v3",
+    "concept": "mammoth",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "This animal is often associated with Ice Age environments.",
+    "llm_id": "deepseek-v3",
+    "concept": "mammoth",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "These animals are known for their intelligence and complex social structures.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "elephant",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "These animals possess remarkable memory and are known for their complex emotional intelligence and strong family bonds",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "elephant",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "This animal is known for its ability to adapt to a variety of environments, from savannas to forests.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "elephant",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "This animal has been a symbol of strength and resilience in many cultures throughout history.",
+    "llm_id": "deepseek-v3",
+    "concept": "mammoth",
+    "statement_id": 16,
+    "statement_round": 4,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "These animals play a crucial role in shaping their ecosystems through their feeding habits and movement.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "elephant",
+    "statement_id": 17,
+    "statement_round": 4,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "This animal is known for its gentle nature and is often revered in various cultures around the world.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "elephant",
+    "statement_id": 18,
+    "statement_round": 4,
+    "game_id": "20250506-042943"
+  },
+  {
+    "statement": "It is a wild animal native to North America.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "coyote",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It has a bushy tail and is known for its cunning nature.",
+    "llm_id": "deepseek-v3",
+    "concept": "fox",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It is often found in open grasslands and deserts.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "coyote",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It is a nocturnal animal known for its adaptability.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "fox",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It often has reddish-brown fur.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "fox",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It is a predator with keen hunting skills and excellent hearing abilities.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "fox",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It is often featured in folklore as a trickster.",
+    "llm_id": "deepseek-v3",
+    "concept": "fox",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It is known for its sharp senses, particularly its sense of smell.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "fox",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It is an intelligent animal that can survive in various environmental conditions.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "fox",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It is known for its distinctive howl, which can often be heard at night.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "coyote",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "It is an animal that can be found in both urban and rural areas.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "fox",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-022801"
+  },
+  {
+    "statement": "Something that can move gracefully through water",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "duck",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "A creature often found near ponds or lakes.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "duck",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "They are known for their loud honking sounds.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "goose",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "It has a distinctive waddling gait on land.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "goose",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "It is often seen in groups and can be quite social.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "goose",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "They are known for their long necks and can be quite territorial.",
+    "llm_id": "deepseek-v3",
+    "concept": "goose",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "It has a thick layer of fat to keep warm in cold water.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "goose",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "It has a strong, streamlined body that helps it swim efficiently.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "goose",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "They are known to migrate in a V formation during seasonal changes.",
+    "llm_id": "deepseek-v3",
+    "concept": "goose",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "Often seen gliding effortlessly over water surfaces.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "duck",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "They have distinctive flat, broad bills used for filtering food from water",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "duck",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "It has a strong, streamlined body that helps it swim efficiently.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "goose",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "They are known for their ability to dabble in water for food.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "duck",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "It has a thick, soft layer of feathers that helps to keep it warm in cold temperatures.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "goose",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "They are known to form lifelong pair bonds and can be very protective of their mates.",
+    "llm_id": "deepseek-v3",
+    "concept": "goose",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "They are known for their strong swimming abilities and often gather in large flocks.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "goose",
+    "statement_id": 16,
+    "statement_round": 4,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "It is a popular subject in European folklore and is often associated with good luck and fertility.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "goose",
+    "statement_id": 17,
+    "statement_round": 4,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "They are often seen in wetlands and are known for their social behavior.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "duck",
+    "statement_id": 18,
+    "statement_round": 4,
+    "game_id": "20250506-034541"
+  },
+  {
+    "statement": "It is a creature often associated with strength.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "lion",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "This animal has a thick, protective skin.",
+    "llm_id": "deepseek-v3",
+    "concept": "rhino",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "This animal is often found in groups in the wild.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "lion",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "This animal is known for its distinctive mane.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "lion",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "This creature is known for its loud vocalization in the wilderness",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lion",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "It has a large body and is a herbivore.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "rhino",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "This animal is often depicted as a symbol of courage and leadership.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "lion",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "This animal is known for its powerful hunting abilities in grassland environments",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lion",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "This animal is often poached for its horn, which is highly valued in some cultures.",
+    "llm_id": "deepseek-v3",
+    "concept": "rhino",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "This animal is often regarded as the king of its habitat.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "lion",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "It primarily consumes meat and other animals to survive.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "lion",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-052516"
+  },
+  {
+    "statement": "A majestic creature often associated with royalty.",
+    "llm_id": "deepseek-v3",
+    "concept": "lion",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "A striped predator known for its powerful hunting skills in dense forest environments",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "tiger",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "A large feline known for its strength and presence in the animal kingdom.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "lion",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "A powerful and agile predator that commands respect in its natural habitat.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "tiger",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "It is a social animal that lives in groups, led by a dominant individual.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "lion",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "They are often referred to as the \"king of the jungle\" despite primarily living in savannas.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "lion",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "This animal's males are distinguished by their impressive manes.",
+    "llm_id": "deepseek-v3",
+    "concept": "lion",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "Their roar can be heard from miles away, a testament to their territorial dominance.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "lion",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "It has a distinctive vocalization that is a deep roar, used for communication over long distances.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "lion",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "This animal is often depicted in cultural symbols and is known for its regal appearance.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "tiger",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "An apex predator that relies on teamwork for hunting.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "lion",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "An animal with sharp claws and a strong roar, known for its hunting prowess.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "lion",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "This animal is often a symbol of courage and is featured on many national flags and emblems.",
+    "llm_id": "deepseek-v3",
+    "concept": "lion",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "Their cubs are born with spots that gradually fade as they mature.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "lion",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "This animal is often featured in mythology and folklore, symbolizing power and courage.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "tiger",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "They possess a specialized tapetum lucidum in their eyes, enhancing their night vision for nocturnal hunting.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "lion",
+    "statement_id": 16,
+    "statement_round": 4,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "This animal is often revered in various cultures and is a symbol of strength and leadership.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "tiger",
+    "statement_id": 17,
+    "statement_round": 4,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "A large cat known for its stealth and ability to stalk prey in various terrains.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "lion",
+    "statement_id": 18,
+    "statement_round": 4,
+    "game_id": "20250505-232044"
+  },
+  {
+    "statement": "This creature is often mistaken for its more colorful relative.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "moth",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "They are often seen fluttering around illuminated areas.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "moth",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature is usually more active when the sun isn't shining.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "moth",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature transforms dramatically during its life cycle",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "butterfly",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature has a distinct method of navigation that involves detecting gradients of light and darkness.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "moth",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature's wings are covered in tiny scales that create vibrant patterns.",
+    "llm_id": "deepseek-v3",
+    "concept": "butterfly",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature's wings are often delicate and fragile, requiring careful handling.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "moth",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "They play a crucial role in the pollination of various plants.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "moth",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature's life cycle includes a stage where it is completely dependent on stored energy reserves, undergoing significant physical transformation before reaching maturity.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "moth",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature is often attracted to artificial light sources, especially at night.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "moth",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature has a unique relationship with specific types of plants during its early stages of development",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "butterfly",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature is known for its intricate patterns on its wings, which serve multiple purposes in its environment.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "moth",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature relies on specialized host plants for reproduction and early survival stages",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "butterfly",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature's antennae are often feathery or thread-like, playing a crucial role in its sensory perception.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "moth",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "They are an important part of the food chain, serving as a food source for birds and other animals.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "moth",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature's movement is often guided by environmental cues, especially during its active periods.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "moth",
+    "statement_id": 16,
+    "statement_round": 4,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "They can be found in a wide range of habitats, from forests to gardens.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "moth",
+    "statement_id": 17,
+    "statement_round": 4,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "This creature has a symbiotic interaction with specific plant species during its larval stage, requiring precise environmental conditions for survival",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "butterfly",
+    "statement_id": 18,
+    "statement_round": 4,
+    "game_id": "20250506-081737"
+  },
+  {
+    "statement": "A colorful creature often found in tropical regions.",
+    "llm_id": "deepseek-v3",
+    "concept": "parrot",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "It is known for its ability to mimic sounds.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "parrot",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "A bird often seen in urban environments.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "crow",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "A creature that can communicate in ways similar to humans.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "parrot",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "This creature is known for its vibrant plumage and ability to learn human speech.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "parrot",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "It has feathers and is capable of flight.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "crow",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "This bird is often kept as a pet due to its intelligence and ability to bond with humans.",
+    "llm_id": "deepseek-v3",
+    "concept": "parrot",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "It often has a curved beak used for cracking nuts and seeds.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "parrot",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "This creature is known for its social nature and can form strong bonds with its human companions.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "parrot",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "It has a distinctive call that can be heard in various environments.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "crow",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "A creature that can learn and repeat complex vocal patterns with remarkable accuracy.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "parrot",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250505-190857"
+  },
+  {
+    "statement": "A powerful predator found in the ocean.",
+    "llm_id": "deepseek-v3",
+    "concept": "shark",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "Has a distinctive triangular fin that cuts through water surfaces",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "shark",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "Often feared for its sharp teeth and powerful jaws.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "shark",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "A large creature that roams the ocean.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "whale",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "A formidable creature known for its presence in the marine ecosystem.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "shark",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "It is a massive animal that lives in the deep blue.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "whale",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "A streamlined swimmer with a reputation for being a top-level hunter in its environment.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "shark",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "A giant inhabitant of the ocean, known for its immense size.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "whale",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "It has a skeleton made of cartilage, which allows it to move efficiently through the water.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "shark",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "It is an apex predator that plays a crucial role in maintaining the balance of marine ecosystems.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "shark",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "This creature is known for its ability to detect electrical fields in the water.",
+    "llm_id": "deepseek-v3",
+    "concept": "shark",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250505-104119"
+  },
+  {
+    "statement": "A creature that moves in a way that suggests it's close to the ground",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lizard",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature often basks in the sun to regulate its body temperature.",
+    "llm_id": "deepseek-v3",
+    "concept": "lizard",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature is known for its ability to slither without limbs.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "snake",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature has a distinctive way of moving that involves contracting and relaxing its muscles to propel itself forward.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "snake",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature often consumes rodents and other small animals as part of its diet.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "snake",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature is commonly found in various habitats, from forests to deserts.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "snake",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature is often associated with shedding its skin as part of its growth process.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "snake",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature can be venomous or non-venomous, depending on the species.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "snake",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature has the unique ability to detach its tail as a defense mechanism when threatened",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lizard",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature is ectothermic, relying on external heat sources to maintain its body temperature.",
+    "llm_id": "deepseek-v3",
+    "concept": "lizard",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature has a highly specialized sense organ that allows it to detect heat and vibrations, helping it to hunt and navigate its environment.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "snake",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature is often depicted as living in a basket and being charmed by music.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "snake",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature has a long, slender body that can be highly flexible, allowing it to navigate through tight spaces.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "snake",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature is often found in warm climates and has scales covering its body.",
+    "llm_id": "deepseek-v3",
+    "concept": "lizard",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature's body is covered in a unique pattern of scales that can be used for camouflage and communication.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "snake",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature is often found in a variety of environments, including grasslands, forests, and deserts, and it can adapt to different climates.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "snake",
+    "statement_id": 16,
+    "statement_round": 4,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature can change its color to blend into its surroundings, a trait useful for both hunting and avoiding predators.",
+    "llm_id": "deepseek-v3",
+    "concept": "lizard",
+    "statement_id": 17,
+    "statement_round": 4,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "This creature's venom, when present, is delivered through sharp, hollow teeth that are designed for efficient delivery of the toxin.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "snake",
+    "statement_id": 18,
+    "statement_round": 4,
+    "game_id": "20250506-011801"
+  },
+  {
+    "statement": "A powerful predator known for its majestic presence in certain ecosystems",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lion",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "Often found in groups led by a dominant individual, this creature's roar can be heard from a significant distance.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "lion",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "This creature is known for its distinctive coat pattern and solitary nature.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "tiger",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "This animal is often associated with strength and grace, and it is a symbol of power in many cultures.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "tiger",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "Its camouflage helps it blend in with the tall grasses of its habitat.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "tiger",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "This animal is known for its ability to swim and often cools off in water during hot weather.",
+    "llm_id": "deepseek-v3",
+    "concept": "tiger",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "It relies on stealth and ambush tactics to hunt its prey.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "tiger",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "This animal is known for its agility and can leap great distances to catch its prey.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "tiger",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "This animal has a distinctive mane that signifies its social hierarchy and dominance.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lion",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "This animal is known for its territorial behavior, marking its domain with scent and scratches.",
+    "llm_id": "deepseek-v3",
+    "concept": "tiger",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "This creature is known for its unique stripes that help it blend into its environment.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "tiger",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-003905"
+  },
+  {
+    "statement": "It is a living thing.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "toad",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It can be found near water.",
+    "llm_id": "deepseek-v3",
+    "concept": "toad",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It has a cold-blooded nature.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "frog",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It has bumpy, textured skin.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "toad",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It can jump.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "frog",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It prefers moist environments.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "toad",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It secretes toxins as a defense mechanism.",
+    "llm_id": "deepseek-v3",
+    "concept": "toad",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It often undergoes a significant transformation in its early life stages.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "toad",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It has prominent, bulging eyes that help with hunting prey.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "toad",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It possesses a long, sticky appendage used for capturing food.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "frog",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It has a warty, rough skin texture.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "toad",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-061638"
+  },
+  {
+    "statement": "It possesses a protective outer layer.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "turtle",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It moves slowly on land but can be swift in water.",
+    "llm_id": "deepseek-v3",
+    "concept": "turtle",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It has a long lifespan and is often found in warm and dry environments.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "tortoise",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It is known for its ability to retract into its shell for protection.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "turtle",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It is known for its sturdy legs and terrestrial lifestyle.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "tortoise",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It can survive in both aquatic and terrestrial environments.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "turtle",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "turtle",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It has a distinctive shell that provides protection and aids in regulating its body temperature.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "tortoise",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It is cold-blooded and relies on external sources to regulate its body temperature.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "turtle",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It lays its eggs on land, often burying them in sand.",
+    "llm_id": "deepseek-v3",
+    "concept": "turtle",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It is often associated with slow and steady progress.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "turtle",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It is often depicted in folklore as a symbol of wisdom and longevity.",
+    "llm_id": "deepseek-v3",
+    "concept": "turtle",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It is a herbivore and plays a vital role in its ecosystem by helping to disperse seeds and maintain vegetation.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "tortoise",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "It is often found in various habitats, from deserts to oceans, and is known for its adaptability.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "turtle",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250506-063542"
+  },
+  {
+    "statement": "This creature is often associated with howling at the moon.",
+    "llm_id": "deepseek-v3",
+    "concept": "wolf",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "It lives in the wild.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "tiger",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature is known for its strength and agility.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "tiger",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature has a strong pack mentality and complex social structures.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "wolf",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature is often seen in packs.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wolf",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "It is a carnivorous mammal with adaptations for hunting in various environments.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "wolf",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature is known for its fierce and solitary nature.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "tiger",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature communicates through complex vocal and non-vocal signals within its group.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "wolf",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature has a thick coat that changes color with the seasons to aid in camouflage.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "wolf",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature is known for its keen senses and intelligence.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wolf",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "It can adapt to different terrains.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "tiger",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature has a complex hierarchical structure within its social group, with specific roles for different members.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "wolf",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature's habitat can range from forests to grasslands.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "tiger",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature is known for its cunning and adaptability.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wolf",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature is capable of reaching high speeds when chasing prey, showcasing its remarkable endurance and speed.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "wolf",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature often marks its territory.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "tiger",
+    "statement_id": 16,
+    "statement_round": 4,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature exhibits complex hunting strategies that involve coordination and communication within its group.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "wolf",
+    "statement_id": 17,
+    "statement_round": 4,
+    "game_id": "20250505-111719"
+  },
+  {
+    "statement": "This creature is known for its resourcefulness and ability to thrive in a variety of environments.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wolf",
+    "statement_id": 18,
+    "statement_round": 4,
+    "game_id": "20250505-111719"
+  }
+]

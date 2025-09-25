@@ -1,0 +1,424 @@
+{
+  "game_record": {
+    "game_id": "20250916-103953",
+    "timestamp": "2025-09-16T10:39:53.366664",
+    "topic_category": "elo_3_glm_ernie_gpt5_gemini25",
+    "concept_pair": {
+      "concept_a": "football",
+      "concept_b": "rugby"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "claude-opus-4-1-20250805",
+        "role": "undercover",
+        "assigned_concept": "rugby",
+        "eliminated_in_voting_round": 1,
+        "is_winner": false
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "football",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "football",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "gemini-2.5-flash-preview-05-20",
+        "role": "undercover",
+        "assigned_concept": "rugby",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "ernie-4.5-300b-a47b",
+        "role": "civilian",
+        "assigned_concept": "football",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 6,
+        "llm_id": "gpt-5",
+        "role": "civilian",
+        "assigned_concept": "football",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "A team sport involving an oval-shaped object.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 5,
+          "llm_id": "ernie-4.5-300b-a47b",
+          "content": "A sport played with a round object, commonly enjoyed worldwide.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "Players advance the ball primarily by running with it or kicking it.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Played on a rectangular field with sidelines and defended scoring zones at both ends.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "A game where the ball is often kicked and passed between players.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "The ball used in this sport is often decorated with black and white pentagons.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "The game often involves strategic passing and teamwork to score goals.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "This sport is known for its passionate fans and is often referred to as 'the beautiful game'.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 5,
+          "llm_id": "ernie-4.5-300b-a47b",
+          "content": "This sport is celebrated globally for its thrilling matches and iconic tournaments.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Only one player per side may handle the ball during open play, guarding a netted goal within a marked area.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "Players often wear specialized boots for grip on the playing surface.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 1
+            }
+          ],
+          "vote_results": {
+            "1": 4,
+            "2": 1,
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 1,
+              "llm_id": "claude-opus-4-1-20250805",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 2,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 4
+            }
+          ],
+          "vote_results": {
+            "2": 1,
+            "3": 0,
+            "4": 2,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "gemini-2.5-flash-preview-05-20",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 2,
+      "total_voting_rounds": 2,
+      "total_statements": 11,
+      "winner_role": "civilian",
+      "winner_ids": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 0,
+      "game_decision_quality": 1.0
+    },
+    "game_analysis": {}
+  }
+}

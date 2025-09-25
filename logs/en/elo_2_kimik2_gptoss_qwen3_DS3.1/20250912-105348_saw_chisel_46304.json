@@ -1,0 +1,1095 @@
+{
+  "game_record": {
+    "game_id": "20250912-104025",
+    "timestamp": "2025-09-12T10:40:25.681336",
+    "topic_category": "elo_2_kimik2_gptoss_qwen3_DS3.1",
+    "concept_pair": {
+      "concept_a": "saw",
+      "concept_b": "chisel"
+    },
+    "judges": [
+      {
+        "id": "claude-3-7-sonnet-20250219",
+        "version": ""
+      },
+      {
+        "id": "gpt-4.1",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "deepseek-v3.1",
+        "role": "civilian",
+        "assigned_concept": "saw",
+        "eliminated_in_voting_round": 3,
+        "is_winner": false
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-v3",
+        "role": "undercover",
+        "assigned_concept": "chisel",
+        "eliminated_in_voting_round": 1,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "saw",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 4,
+        "llm_id": "qwen-plus-2025-04-28",
+        "role": "civilian",
+        "assigned_concept": "saw",
+        "eliminated_in_voting_round": 4,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "kimi-k2-instruct",
+        "role": "civilian",
+        "assigned_concept": "saw",
+        "eliminated_in_voting_round": null,
+        "is_winner": false
+      },
+      {
+        "player_id": 6,
+        "llm_id": "gpt-oss-120b",
+        "role": "undercover",
+        "assigned_concept": "chisel",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 6,
+          "llm_id": "gpt-oss-120b",
+          "content": "A handheld tool used for shaping and carving material.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.6
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "A tool commonly used in construction and woodworking.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.2,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.6
+              },
+              "relevance_score_mean": 0.4,
+              "relevance_score_variance": 0.039999999999999994,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.2,
+                "gpt-4.1": 0.6
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 1,
+          "llm_id": "deepseek-v3.1",
+          "content": "It uses a toothed blade to cut through various materials.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 1.0
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 1.0
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "Often struck with a mallet to remove material.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 5,
+          "llm_id": "kimi-k2-instruct",
+          "content": "A hand-held implement typically used on wood.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.4,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.5,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.4
+              },
+              "relevance_score_mean": 0.5,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4.1": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 4,
+          "llm_id": "qwen-plus-2025-04-28",
+          "content": "It has a blade with sharp edges that move back and forth to slice through substances.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 1.0
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 1,
+          "llm_id": "deepseek-v3.1",
+          "content": "Its effectiveness comes from the series of small teeth that create a kerf as they move through the material.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 1.0,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 4,
+          "llm_id": "qwen-plus-2025-04-28",
+          "content": "It relies on a back-and-forth motion to slice through hard materials like wood or metal.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 5,
+          "llm_id": "kimi-k2-instruct",
+          "content": "Its blade lets you gradually remove material by guiding it along a marked line.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 6,
+          "llm_id": "gpt-oss-120b",
+          "content": "It is a hand‑held instrument that removes material by applying focused force.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "It is essential for precise cuts and can be manual or powered.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 12,
+          "player_id": 4,
+          "llm_id": "qwen-plus-2025-04-28",
+          "content": "It allows precise control when making cuts along a pre-drawn guideline.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 13,
+          "player_id": 6,
+          "llm_id": "gpt-oss-120b",
+          "content": "It works best when paired with a striking tool to chip away at surfaces.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 14,
+          "player_id": 5,
+          "llm_id": "kimi-k2-instruct",
+          "content": "Guiding it steadily along the line gives you a clean, controlled cut.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 15,
+          "player_id": 1,
+          "llm_id": "deepseek-v3.1",
+          "content": "The blade's teeth are designed to remove small chips of material with each forward stroke.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 16,
+          "player_id": 6,
+          "llm_id": "gpt-oss-120b",
+          "content": "By applying steady pressure, its sharpened edge removes thin layers of material with each contact.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 17,
+          "player_id": 4,
+          "llm_id": "qwen-plus-2025-04-28",
+          "content": "Its teeth are designed to cut in one direction, requiring careful guidance to maintain a straight line.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.6
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 18,
+          "player_id": 5,
+          "llm_id": "kimi-k2-instruct",
+          "content": "Keeping it aligned with the marked path ensures only the intended material disappears.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 1
+            }
+          ],
+          "vote_results": {
+            "1": 2,
+            "2": 3,
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 2,
+              "llm_id": "deepseek-v3",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 1,
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 3,
+              "llm_id": "qwen2.5-72b",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 3,
+          "after_statement_round": 3,
+          "after_statement_id": 15,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 1
+            }
+          ],
+          "vote_results": {
+            "1": 2,
+            "4": 0,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 1,
+              "llm_id": "deepseek-v3.1",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 4,
+          "after_statement_round": 4,
+          "after_statement_id": 18,
+          "votes": [
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 4
+            }
+          ],
+          "vote_results": {
+            "4": 1,
+            "5": 1,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "qwen-plus-2025-04-28",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 4,
+      "total_voting_rounds": 4,
+      "total_statements": 18,
+      "winner_role": "undercover",
+      "winner_ids": [
+        2,
+        6
+      ],
+      "correct_identifications": 1,
+      "incorrect_identifications": 3,
+      "game_decision_quality": 0.25
+    },
+    "game_analysis": {}
+  }
+}

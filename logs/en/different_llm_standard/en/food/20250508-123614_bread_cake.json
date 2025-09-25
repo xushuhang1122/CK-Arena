@@ -1,0 +1,699 @@
+{
+  "game_record": {
+    "game_id": "20250508-123135",
+    "timestamp": "2025-05-08T12:31:35.103377",
+    "topic_category": "food",
+    "concept_pair": {
+      "concept_a": "bread",
+      "concept_b": "cake"
+    },
+    "judges": [
+      {
+        "id": "claude-3-7-sonnet-20250219",
+        "version": ""
+      },
+      {
+        "id": "gpt-4.1-2025-04-14",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "claude-3-5-haiku-20241022",
+        "role": "civilian",
+        "assigned_concept": "bread",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 2,
+        "llm_id": "gpt-4o-2024-11-20",
+        "role": "civilian",
+        "assigned_concept": "bread",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "undercover",
+        "assigned_concept": "cake",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 4,
+        "llm_id": "llama-3.3-70b-instruct",
+        "role": "undercover",
+        "assigned_concept": "cake",
+        "eliminated_in_voting_round": 1,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "gemini-2.0-pro-exp",
+        "role": "civilian",
+        "assigned_concept": "bread",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 6,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "bread",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 6,
+          "llm_id": "deepseek-v3",
+          "content": "A staple food made from flour and water, often baked.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 4,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "A sweet treat often served at celebrations and special occasions.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 5,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "It's frequently paired with savory foods, providing sustenance for daily life.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 1,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "An essential component of many meals, often sliced and used for sandwiches or as a base for other dishes.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "It's often decorated with frosting and sprinkles, making it visually appealing.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 2,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "A commonly baked item, often served plain or with spreads to enhance flavor.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 6,
+          "llm_id": "deepseek-v3",
+          "content": "It can be toasted to achieve a crispy texture, perfect for breakfast.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 5,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "It is frequently formed into a long loaf often sliced for sandwiches.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "It's a dessert that can come in various flavors, such as chocolate, vanilla, and strawberry.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 2,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "A versatile food item that can be shaped into loaves, rolls, or other forms, often sliced before serving.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 1,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "A food that can be transformed through various preparation methods like toasting, grilling, or using in other recipes.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 4
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 3,
+            "5": 1,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "llama-3.3-70b-instruct",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 0,
+            "3": 4,
+            "5": 0,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 3,
+              "llm_id": "qwen2.5-72b",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 2,
+      "total_voting_rounds": 2,
+      "total_statements": 11,
+      "winner_role": "civilian",
+      "winner_ids": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 0,
+      "game_decision_quality": 1.0
+    },
+    "game_analysis": {}
+  }
+}

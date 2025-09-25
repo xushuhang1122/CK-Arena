@@ -1,0 +1,549 @@
+{
+  "game_record": {
+    "game_id": "20250915-205946",
+    "timestamp": "2025-09-15T20:59:46.384663",
+    "topic_category": "reasoner_test",
+    "concept_pair": {
+      "concept_a": "skateboard",
+      "concept_b": "rollerblades"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "qwq-plus",
+        "role": "civilian",
+        "assigned_concept": "skateboard",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-r1",
+        "role": "civilian",
+        "assigned_concept": "skateboard",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "gemini-2.5-pro-thinking",
+        "role": "undercover",
+        "assigned_concept": "rollerblades",
+        "eliminated_in_voting_round": 3,
+        "is_winner": false
+      },
+      {
+        "player_id": 4,
+        "llm_id": "o1",
+        "role": "civilian",
+        "assigned_concept": "skateboard",
+        "eliminated_in_voting_round": 2,
+        "is_winner": true
+      },
+      {
+        "player_id": 5,
+        "llm_id": "deepseek-v3",
+        "role": "undercover",
+        "assigned_concept": "rollerblades",
+        "eliminated_in_voting_round": 1,
+        "is_winner": false
+      },
+      {
+        "player_id": 6,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "skateboard",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "It's an item that lets you roll along on a firm surface by balancing on top.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "It typically has a curved wooden deck attached to four small wheels.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "It's a popular recreational tool often used for tricks and stunts.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 3,
+          "llm_id": "gemini-2.5-pro-thinking",
+          "content": "It's highly recommended to wear protective gear like a helmet and pads when using this item.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 5,
+          "llm_id": "deepseek-v3",
+          "content": "It's a fun way to get around while enjoying the outdoors.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "Trucks connect the wheels to the deck, allowing steering and balance adjustments while in motion.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "It's often associated with a subculture known for its unique style and attitude.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "It moves forward by pushing against the ground with one foot while balancing on the deck.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 3,
+          "llm_id": "gemini-2.5-pro-thinking",
+          "content": "The quality of the bearings inside the wheels can significantly affect your speed.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "The top surface has gritty tape to ensure your feet don't slip during maneuvers.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "Many people bring it to skate parks, where they can practice maneuvers on ramps and rails.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 12,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "Riders perform ollies by snapping the tail against the ground to leap over obstacles.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 13,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "The deck is often adorned with colorful artwork or designs chosen to personalize the ride.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 14,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "The trucks are adjustable, allowing riders to fine-tune the turning and stability of the board.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 15,
+          "player_id": 3,
+          "llm_id": "gemini-2.5-pro-thinking",
+          "content": "The wheels are typically made of polyurethane to ensure a smooth ride with good grip on the surface.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 5,
+              "llm_id": "deepseek-v3",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "o1",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 3,
+          "after_statement_round": 3,
+          "after_statement_id": 15,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 0,
+            "3": 3,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 3,
+              "llm_id": "gemini-2.5-pro-thinking",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 3,
+      "total_voting_rounds": 3,
+      "total_statements": 15,
+      "winner_role": "civilian",
+      "winner_ids": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 1,
+      "game_decision_quality": 0.6666666666666666
+    },
+    "game_analysis": {}
+  }
+}

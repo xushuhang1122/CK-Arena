@@ -1,0 +1,647 @@
+{
+  "game_record": {
+    "game_id": "20250916-094015",
+    "timestamp": "2025-09-16T09:40:15.890320",
+    "topic_category": "elo_3_glm_ernie_gpt5_gemini25",
+    "concept_pair": {
+      "concept_a": "apple",
+      "concept_b": "pear"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "claude-opus-4-1-20250805",
+        "role": "civilian",
+        "assigned_concept": "apple",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "apple",
+        "eliminated_in_voting_round": 3,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "apple",
+        "eliminated_in_voting_round": 1,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "gemini-2.5-flash-preview-05-20",
+        "role": "civilian",
+        "assigned_concept": "apple",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 5,
+        "llm_id": "ernie-4.5-300b-a47b",
+        "role": "undercover",
+        "assigned_concept": "pear",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 6,
+        "llm_id": "gpt-5",
+        "role": "undercover",
+        "assigned_concept": "pear",
+        "eliminated_in_voting_round": 4,
+        "is_winner": false
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "A common fruit often found in lunchboxes.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 5,
+          "llm_id": "ernie-4.5-300b-a47b",
+          "content": "A fruit that is typically juicy and has a skin that can vary in color.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "An orchard staple that’s eaten fresh and also baked into pies or tarts.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "This fruit often has a crisp texture and is widely associated with health.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "A versatile fruit that can be enjoyed raw or used in a variety of culinary dishes.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "A fruit that comes in varieties named after different regions and seasons, like Fuji and Gala.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "It's a primary ingredient for juice production and is famously fermented into cider.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 5,
+          "llm_id": "ernie-4.5-300b-a47b",
+          "content": "This fruit is often enjoyed for its sweet flavor and is a popular choice in both fresh and cooked forms.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Thin-skinned with a seed-filled core, it’s often sliced into salads or cooked down into compotes.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "This fruit is often paired with peanut butter as a healthy snack and is a symbol in many cultural myths.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "A fruit traditionally associated with keeping the doctor away and often symbolizes the autumn harvest season.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 12,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "A pome from the rose family that browns quickly when cut and pairs nicely with cheese and warm spices.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 13,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "Its characteristic crunch is often celebrated as a sign of freshness.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 14,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "This fruit is often used in desserts and is a key ingredient in many traditional holiday dishes.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 15,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "A fruit whose red delicious variety was once America's most popular but has since been overtaken by sweeter, crisper cultivars.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 16,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Freckled-skinned and sweet-aromatic, it’s as at home on a cheese board as it is alongside roast pork.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 17,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "A fruit that's often given a waxy coating for shine and preservation when sold in supermarkets.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 18,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "Cutting it crosswise often reveals a distinctive star pattern in its center.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 1,
+            "2": 0,
+            "3": 4,
+            "4": 0,
+            "5": 1,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 3,
+              "llm_id": "qwen2.5-72b",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 2,
+              "voted_for": ""
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 5
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 0,
+            "4": 1,
+            "5": 2,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 5,
+              "llm_id": "ernie-4.5-300b-a47b",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 3,
+          "after_statement_round": 3,
+          "after_statement_id": 15,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 2
+            }
+          ],
+          "vote_results": {
+            "1": 1,
+            "2": 2,
+            "4": 0,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 2,
+              "llm_id": "deepseek-v3",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 4,
+          "after_statement_round": 4,
+          "after_statement_id": 18,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 4
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "4": 1,
+            "6": 2
+          },
+          "eliminated": [
+            {
+              "player_id": 6,
+              "llm_id": "gpt-5",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 4,
+      "total_voting_rounds": 4,
+      "total_statements": 18,
+      "winner_role": "civilian",
+      "winner_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 2,
+      "game_decision_quality": 0.5
+    },
+    "game_analysis": {}
+  }
+}

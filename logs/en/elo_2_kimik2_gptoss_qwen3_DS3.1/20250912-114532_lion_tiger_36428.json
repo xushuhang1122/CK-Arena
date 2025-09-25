@@ -1,0 +1,655 @@
+{
+  "game_record": {
+    "game_id": "20250912-114006",
+    "timestamp": "2025-09-12T11:40:06.607120",
+    "topic_category": "elo_2_kimik2_gptoss_qwen3_DS3.1",
+    "concept_pair": {
+      "concept_a": "lion",
+      "concept_b": "tiger"
+    },
+    "judges": [
+      {
+        "id": "claude-3-7-sonnet-20250219",
+        "version": ""
+      },
+      {
+        "id": "gpt-4.1",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "deepseek-v3.1",
+        "role": "civilian",
+        "assigned_concept": "lion",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "lion",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "lion",
+        "eliminated_in_voting_round": 1,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "qwen-plus-2025-04-28",
+        "role": "undercover",
+        "assigned_concept": "tiger",
+        "eliminated_in_voting_round": -1,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "kimi-k2-instruct",
+        "role": "undercover",
+        "assigned_concept": "tiger",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 6,
+        "llm_id": "gpt-oss-120b",
+        "role": "civilian",
+        "assigned_concept": "lion",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 5,
+          "llm_id": "kimi-k2-instruct",
+          "content": "A powerful predator known for its strength and distinctive appearance.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              },
+              "relevance_score_mean": 0.5,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.4
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 4,
+          "llm_id": "qwen-plus-2025-04-28",
+          "content": "",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0,
+                  "relevance_score": 0,
+                  "reasonableness_score": 0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0,
+                  "reasonableness_score": 0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.5,
+              "novelty_score_variance": 0.25,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0,
+                "gpt-4.1": 1.0
+              },
+              "relevance_score_mean": 0.0,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0,
+                "gpt-4.1": 0
+              },
+              "reasonableness_score_mean": 0.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0,
+                "gpt-4.1": 0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 1,
+          "llm_id": "deepseek-v3.1",
+          "content": "It is often called the king of the jungle and has a majestic mane.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 1.0
+              },
+              "relevance_score_mean": 1.0,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 6,
+          "llm_id": "gpt-oss-120b",
+          "content": "Its roar can echo across the savanna, warning rivals of its presence.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 1.0
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "This animal is often featured in folklore and symbolizes courage and leadership.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "This creature is known for its agility and hunting prowess, often found in grasslands and forests.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.6
+              },
+              "relevance_score_mean": 0.5,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4.1": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 5,
+          "llm_id": "kimi-k2-instruct",
+          "content": "This solitary hunter relies on stealth and powerful pounces to bring down prey.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "This animal forms social groups called prides, where females do most of the hunting.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              },
+              "relevance_score_mean": 1.0,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 1,
+          "llm_id": "deepseek-v3.1",
+          "content": "This animal marks its territory with scent and defends it fiercely against intruders.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 6,
+          "llm_id": "gpt-oss-120b",
+          "content": "Its tawny coat blends perfectly with the golden grasses of the savanna, providing natural camouflage.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1": 1.0
+              }
+            }
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 1,
+            "3": 4,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 3,
+              "llm_id": "qwen2.5-72b",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 10,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 5
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 1,
+            "5": 2,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 5,
+              "llm_id": "kimi-k2-instruct",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ],
+      "metric_eliminations": [
+        {
+          "player_id": 4,
+          "llm_id": "qwen-plus-2025-04-28",
+          "role": "undercover",
+          "elimination_round": 1,
+          "elimination_reason": "Low reasonableness score: 0.00",
+          "metrics": {
+            "novelty_mean": 0.5,
+            "reasonableness_mean": 0.0
+          }
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 2,
+      "total_voting_rounds": 2,
+      "total_statements": 10,
+      "winner_role": "civilian",
+      "winner_ids": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "correct_identifications": 1,
+      "incorrect_identifications": 1,
+      "game_decision_quality": 0.5
+    },
+    "game_analysis": {}
+  }
+}

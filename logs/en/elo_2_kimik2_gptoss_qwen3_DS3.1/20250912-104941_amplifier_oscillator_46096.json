@@ -1,0 +1,432 @@
+{
+  "game_record": {
+    "game_id": "20250923-163127",
+    "timestamp": "2025-09-23T16:31:27.548880",
+    "topic_category": "electronic_elo2",
+    "concept_pair": {
+      "concept_a": "amplifier",
+      "concept_b": "oscillator"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "qwen2.5-72b",
+        "role": "undercover",
+        "assigned_concept": "oscillator",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "amplifier",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "kimi-k2-instruct",
+        "role": "civilian",
+        "assigned_concept": "amplifier",
+        "eliminated_in_voting_round": -1,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "deepseek-v3.1",
+        "role": "civilian",
+        "assigned_concept": "amplifier",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 5,
+        "llm_id": "qwen-plus-2025-04-28",
+        "role": "undercover",
+        "assigned_concept": "oscillator",
+        "eliminated_in_voting_round": 1,
+        "is_winner": false
+      },
+      {
+        "player_id": 6,
+        "llm_id": "gpt-oss-120b",
+        "role": "civilian",
+        "assigned_concept": "amplifier",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 3,
+          "llm_id": "kimi-k2-instruct",
+          "content": "It makes small things bigger in a way you can notice.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 5,
+          "llm_id": "qwen-plus-2025-04-28",
+          "content": "It moves back and forth in a regular rhythm.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 6,
+          "llm_id": "gpt-oss-120b",
+          "content": "It boosts electrical signals without changing their original form.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "It increases the power of a signal while maintaining its integrity.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 4,
+          "llm_id": "deepseek-v3.1",
+          "content": "Often used in audio systems to make sounds louder without distortion.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 1,
+          "llm_id": "qwen2.5-72b",
+          "content": "It generates a consistent pattern that repeats over time.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 3,
+          "llm_id": "kimi-k2-instruct",
+          "content": "Its action repeats every time a new cycle comes through, steady and predictable.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 1
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 6,
+          "llm_id": "gpt-oss-120b",
+          "content": "It raises the strength of an electrical signal while keeping its original shape.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 4,
+          "llm_id": "deepseek-v3.1",
+          "content": "Essential in both musical instruments and public address systems for enhancing weak signals.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "Commonly found in sound systems to enhance weak audio signals without altering their quality.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 1,
+          "llm_id": "qwen2.5-72b",
+          "content": "It plays a crucial role in various electronic devices by maintaining a stable and consistent output.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 5
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 0,
+            "5": 4,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 5,
+              "llm_id": "qwen-plus-2025-04-28",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 1
+            }
+          ],
+          "vote_results": {
+            "1": 1,
+            "2": 0,
+            "4": 1,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 1,
+              "llm_id": "qwen2.5-72b",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ],
+      "metric_eliminations": [
+        {
+          "player_id": 3,
+          "llm_id": "kimi-k2-instruct",
+          "role": "civilian",
+          "elimination_round": 2,
+          "elimination_reason": "Low reasonableness",
+          "metrics": {
+            "reasonableness_eliminate": 1,
+            "novelty_eliminate": 0
+          }
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 2,
+      "total_voting_rounds": 2,
+      "total_statements": 11,
+      "winner_role": "civilian",
+      "winner_ids": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 0,
+      "game_decision_quality": 1.0
+    },
+    "game_analysis": {}
+  }
+}

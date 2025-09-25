@@ -1,0 +1,707 @@
+{
+  "game_record": {
+    "game_id": "20250508-165810",
+    "timestamp": "2025-05-08T16:58:10.022095",
+    "topic_category": "food",
+    "concept_pair": {
+      "concept_a": "Pepper Powder",
+      "concept_b": "Mustard"
+    },
+    "judges": [
+      {
+        "id": "claude-3-7-sonnet-20250219",
+        "version": ""
+      },
+      {
+        "id": "gpt-4.1-2025-04-14",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "claude-3-5-haiku-20241022",
+        "role": "undercover",
+        "assigned_concept": "Mustard",
+        "eliminated_in_voting_round": -1,
+        "is_winner": false
+      },
+      {
+        "player_id": 2,
+        "llm_id": "gpt-4o-2024-11-20",
+        "role": "civilian",
+        "assigned_concept": "Pepper Powder",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "Pepper Powder",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "llama-3.3-70b-instruct",
+        "role": "undercover",
+        "assigned_concept": "Mustard",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "gemini-2.0-pro-exp",
+        "role": "civilian",
+        "assigned_concept": "Pepper Powder",
+        "eliminated_in_voting_round": 1,
+        "is_winner": true
+      },
+      {
+        "player_id": 6,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "Pepper Powder",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 6,
+          "llm_id": "deepseek-v3",
+          "content": "It is commonly used to add flavor to food.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.2,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.2,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              },
+              "relevance_score_mean": 0.2,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.2,
+                "gpt-4.1-2025-04-14": 0.2
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 2,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "It is often found in kitchens.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.2,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.4,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.5,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1-2025-04-14": 0.4
+              },
+              "relevance_score_mean": 0.30000000000000004,
+              "relevance_score_variance": 0.010000000000000002,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.2,
+                "gpt-4.1-2025-04-14": 0.4
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 1,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "It can be yellow in color.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 5,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "It can cause a burning sensation.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "It is often used in small quantities to enhance the taste of dishes.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.4,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.5,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1-2025-04-14": 0.4
+              },
+              "relevance_score_mean": 0.6,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 4,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "It is a popular condiment used in various cuisines.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.4,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.2,
+                  "relevance_score": 0.2,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.30000000000000004,
+              "novelty_score_variance": 0.010000000000000002,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4.1-2025-04-14": 0.2
+              },
+              "relevance_score_mean": 0.30000000000000004,
+              "relevance_score_variance": 0.010000000000000002,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4.1-2025-04-14": 0.2
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 6,
+          "llm_id": "deepseek-v3",
+          "content": "It can be made from dried and ground fruits of certain plants.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.04000000000000001,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 4,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "It is often served as a accompaniment to grilled meats or cheeses.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 1,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0,
+                  "relevance_score": 0,
+                  "reasonableness_score": 0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0,
+                  "reasonableness_score": 0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.5,
+              "novelty_score_variance": 0.25,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0,
+                "gpt-4.1-2025-04-14": 1.0
+              },
+              "relevance_score_mean": 0.0,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0,
+                "gpt-4.1-2025-04-14": 0
+              },
+              "reasonableness_score_mean": 0.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0,
+                "gpt-4.1-2025-04-14": 0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "It is often paired with salt on dining tables.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 2,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "It is commonly a key ingredient in spicy dishes.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4.1-2025-04-14",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4.1-2025-04-14": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4.1-2025-04-14": 1.0
+              }
+            }
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 5
+            }
+          ],
+          "vote_results": {
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 5,
+              "llm_id": "gemini-2.0-pro-exp",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 2,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 5
+            }
+          ],
+          "vote_results": {
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "llama-3.3-70b-instruct",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ],
+      "metric_eliminations": [
+        {
+          "player_id": 1,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "role": "undercover",
+          "elimination_round": 2,
+          "elimination_reason": "Low reasonableness score: 0.00",
+          "metrics": {
+            "novelty_mean": 0.5,
+            "reasonableness_mean": 0.0
+          }
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 2,
+      "total_voting_rounds": 2,
+      "total_statements": 11,
+      "winner_role": "civilian",
+      "winner_ids": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "correct_identifications": 1,
+      "incorrect_identifications": 1,
+      "game_decision_quality": 0.5
+    },
+    "game_analysis": {}
+  }
+}

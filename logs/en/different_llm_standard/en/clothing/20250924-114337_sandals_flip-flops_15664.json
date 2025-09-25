@@ -1,0 +1,1095 @@
+{
+  "game_record": {
+    "game_id": "20250924-112409",
+    "timestamp": "2025-09-24T11:24:09.307577",
+    "topic_category": "electronic_elo3",
+    "concept_pair": {
+      "concept_a": "sandals",
+      "concept_b": "flip-flops"
+    },
+    "judges": [
+      {
+        "id": "claude-3-7-sonnet-20250219",
+        "version": ""
+      },
+      {
+        "id": "gpt-4-0125-preview",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "sandals",
+        "eliminated_in_voting_round": 4,
+        "is_winner": false
+      },
+      {
+        "player_id": 2,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "sandals",
+        "eliminated_in_voting_round": 1,
+        "is_winner": false
+      },
+      {
+        "player_id": 3,
+        "llm_id": "gemini-2.0-pro-exp",
+        "role": "civilian",
+        "assigned_concept": "sandals",
+        "eliminated_in_voting_round": 3,
+        "is_winner": false
+      },
+      {
+        "player_id": 4,
+        "llm_id": "gpt-4o-2024-11-20",
+        "role": "undercover",
+        "assigned_concept": "flip-flops",
+        "eliminated_in_voting_round": 2,
+        "is_winner": true
+      },
+      {
+        "player_id": 5,
+        "llm_id": "llama-3.3-70b-instruct",
+        "role": "civilian",
+        "assigned_concept": "sandals",
+        "eliminated_in_voting_round": null,
+        "is_winner": false
+      },
+      {
+        "player_id": 6,
+        "llm_id": "claude-3-5-haiku-20241022",
+        "role": "undercover",
+        "assigned_concept": "flip-flops",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 2,
+          "llm_id": "qwen2.5-72b",
+          "content": "This item is often used during warm weather.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.2,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              },
+              "relevance_score_mean": 0.4,
+              "relevance_score_variance": 0.039999999999999994,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.2,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 4,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "This item is often seen in casual settings.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 0.6
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.04000000000000001,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.4,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4-0125-preview": 0.4
+              },
+              "reasonableness_score_mean": 0.8,
+              "reasonableness_score_variance": 0.04000000000000001,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.6
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 5,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "They are typically made of lightweight materials.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              },
+              "relevance_score_mean": 0.5,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 6,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "They provide comfort and convenience for everyday activities.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.2,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.4,
+              "relevance_score_variance": 0.039999999999999994,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.2,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 3,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "They are typically held to the foot by some form of strapping.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 1,
+          "llm_id": "deepseek-v3",
+          "content": "They are easy to slip on and off, making them ideal for quick outings.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.6,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 6,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "They often feature minimal coverage, exposing most of the foot to air.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 3,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "They are commonly worn without the need for hosiery.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.6,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 5,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "They are a popular choice for beachgoers and outdoor enthusiasts.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.6,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 4,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "They are versatile and used in many different informal activities.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 0.8
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.5,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.8,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 1,
+          "llm_id": "deepseek-v3",
+          "content": "They are often chosen for their breathability and ease of wear in hot climates.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 12,
+          "player_id": 6,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "They come in a wide variety of colors and designs to match different personal styles.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.5,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 13,
+          "player_id": 5,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "They are often preferred for their cooling effect on the feet during hot summer days.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.4,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.5,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.6,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 14,
+          "player_id": 1,
+          "llm_id": "deepseek-v3",
+          "content": "They are designed with open spaces to allow air circulation around the foot.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 15,
+          "player_id": 3,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "They are fundamentally composed of a sole that is secured to the foot.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.4,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6000000000000001,
+              "novelty_score_variance": 0.04000000000000001,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.4
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 16,
+          "player_id": 5,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "They are frequently worn for leisure activities such as walking or hiking in warm weather.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 17,
+          "player_id": 1,
+          "llm_id": "deepseek-v3",
+          "content": "They often have straps that go between the toes and around the heel for secure yet open wear.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 18,
+          "player_id": 6,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "They make a distinctive sound when walking, often described as rhythmic slapping against the sole of the foot.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 2
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 2,
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 2
+          },
+          "eliminated": [
+            {
+              "player_id": 2,
+              "llm_id": "qwen2.5-72b",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "gpt-4o-2024-11-20",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 3,
+          "after_statement_round": 3,
+          "after_statement_id": 15,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 4
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "3": 0,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 3,
+              "llm_id": "gemini-2.0-pro-exp",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 4,
+          "after_statement_round": 4,
+          "after_statement_id": 18,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 1
+            }
+          ],
+          "vote_results": {
+            "1": 1,
+            "5": 0,
+            "6": 1
+          },
+          "eliminated": [
+            {
+              "player_id": 1,
+              "llm_id": "deepseek-v3",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 4,
+      "total_voting_rounds": 4,
+      "total_statements": 18,
+      "winner_role": "undercover",
+      "winner_ids": [
+        4,
+        6
+      ],
+      "correct_identifications": 1,
+      "incorrect_identifications": 3,
+      "game_decision_quality": 0.25
+    },
+    "game_analysis": {}
+  }
+}

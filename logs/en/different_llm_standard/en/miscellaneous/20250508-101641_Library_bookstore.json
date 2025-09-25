@@ -1,0 +1,1097 @@
+{
+  "game_record": {
+    "game_id": "20250508-100759",
+    "timestamp": "2025-05-08T10:07:59.171579",
+    "topic_category": "miscellaneous",
+    "concept_pair": {
+      "concept_a": "Library",
+      "concept_b": "bookstore"
+    },
+    "judges": [
+      {
+        "id": "claude-3-7-sonnet-20250219",
+        "version": ""
+      },
+      {
+        "id": "gpt-4-0125-preview",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "claude-3-5-haiku-20241022",
+        "role": "civilian",
+        "assigned_concept": "Library",
+        "eliminated_in_voting_round": 2,
+        "is_winner": true
+      },
+      {
+        "player_id": 2,
+        "llm_id": "gpt-4o-2024-11-20",
+        "role": "civilian",
+        "assigned_concept": "Library",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "undercover",
+        "assigned_concept": "bookstore",
+        "eliminated_in_voting_round": 4,
+        "is_winner": false
+      },
+      {
+        "player_id": 4,
+        "llm_id": "llama-3.3-70b-instruct",
+        "role": "civilian",
+        "assigned_concept": "Library",
+        "eliminated_in_voting_round": 3,
+        "is_winner": true
+      },
+      {
+        "player_id": 5,
+        "llm_id": "gemini-2.0-pro-exp",
+        "role": "civilian",
+        "assigned_concept": "Library",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 6,
+        "llm_id": "deepseek-v3",
+        "role": "undercover",
+        "assigned_concept": "bookstore",
+        "eliminated_in_voting_round": 1,
+        "is_winner": false
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 4,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "A place where people often go to access a wide range of information and resources.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 1.0,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              },
+              "relevance_score_mean": 0.6,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.9,
+              "reasonableness_score_variance": 0.009999999999999995,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 1,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "A quiet environment typically filled with shelves of organized written materials.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.04000000000000001,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 5,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "It is a space designed for learning and community engagement.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.6,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 2,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "A setting often associated with borrowing books and other materials for personal use.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "A place where people can find and explore a variety of written materials in a peaceful setting.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.4,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6000000000000001,
+              "novelty_score_variance": 0.04000000000000001,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.5,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 6,
+          "llm_id": "deepseek-v3",
+          "content": "A retail space where you can browse and purchase various reading materials.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.9,
+              "novelty_score_variance": 0.009999999999999995,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 1.0
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "A place where you can spend time browsing through a diverse collection of items, often finding something new and interesting.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.4,
+                  "reasonableness_score": 0.8
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 0.8
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.5,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.4,
+                "gpt-4-0125-preview": 0.6
+              },
+              "reasonableness_score_mean": 0.8,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 4,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "It is a community hub that offers a wide range of resources and services, often including programs and events for people of all ages.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 1,
+          "llm_id": "claude-3-5-haiku-20241022",
+          "content": "A location that offers free access to knowledge, typically managed by professional information specialists.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 5,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "It offers resources for different age groups and skill levels, going beyond mere retail transactions.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 2,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "An organized setting often providing free access to knowledge and materials for both personal and educational purposes.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 12,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "A place where you can immerse yourself in a world of stories and ideas, surrounded by rows of shelves filled with diverse topics.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 13,
+          "player_id": 2,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "A resourceful environment where individuals can freely access books, periodicals, and multimedia materials for education and leisure.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.6,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 14,
+          "player_id": 4,
+          "llm_id": "llama-3.3-70b-instruct",
+          "content": "It is a public institution that preserves and provides access to historical and cultural materials, supporting research and learning for the community.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 1.0
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 15,
+          "player_id": 5,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "It serves as a sanctuary for contemplation and study, distinct from a commercial establishment.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 16,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "A place where you can find a vast array of written works, often spending hours exploring different genres and topics.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.6,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 1.0,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 0.6
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.04000000000000001,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 1.0
+              },
+              "relevance_score_mean": 0.7,
+              "relevance_score_variance": 0.010000000000000005,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.6,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 0.8,
+              "reasonableness_score_variance": 0.04000000000000001,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.6
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 17,
+          "player_id": 5,
+          "llm_id": "gemini-2.0-pro-exp",
+          "content": "It's a place where the main activity isn't buying but consuming knowledge.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.8,
+              "novelty_score_variance": 0.0,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "relevance_score_mean": 0.8,
+              "relevance_score_variance": 0.0,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        },
+        {
+          "statement_id": 18,
+          "player_id": 2,
+          "llm_id": "gpt-4o-2024-11-20",
+          "content": "A public space dedicated to facilitating learning and research, often offering a quiet and structured environment for study.",
+          "statement_round": 4,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "claude-3-7-sonnet-20250219",
+                "metrics": {
+                  "novelty_score": 0.8,
+                  "relevance_score": 1.0,
+                  "reasonableness_score": 1.0
+                }
+              },
+              {
+                "judge_id": "gpt-4-0125-preview",
+                "metrics": {
+                  "novelty_score": 0.6,
+                  "relevance_score": 0.8,
+                  "reasonableness_score": 1.0
+                }
+              }
+            ],
+            "judges_stats": {
+              "novelty_score_mean": 0.7,
+              "novelty_score_variance": 0.010000000000000005,
+              "novelty_score_all_values": {
+                "claude-3-7-sonnet-20250219": 0.8,
+                "gpt-4-0125-preview": 0.6
+              },
+              "relevance_score_mean": 0.9,
+              "relevance_score_variance": 0.009999999999999995,
+              "relevance_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 0.8
+              },
+              "reasonableness_score_mean": 1.0,
+              "reasonableness_score_variance": 0.0,
+              "reasonableness_score_all_values": {
+                "claude-3-7-sonnet-20250219": 1.0,
+                "gpt-4-0125-preview": 1.0
+              }
+            }
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 5
+            }
+          ],
+          "vote_results": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 5
+          },
+          "eliminated": [
+            {
+              "player_id": 6,
+              "llm_id": "deepseek-v3",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 6
+            }
+          ],
+          "vote_results": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 1,
+              "llm_id": "claude-3-5-haiku-20241022",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 3,
+          "after_statement_round": 3,
+          "after_statement_id": 15,
+          "votes": [
+            {
+              "voter_id": 2,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 6
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 6
+            }
+          ],
+          "vote_results": {
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "llama-3.3-70b-instruct",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 4,
+          "after_statement_round": 4,
+          "after_statement_id": 18,
+          "votes": [
+            {
+              "voter_id": 2,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "2": 1,
+            "3": 2,
+            "5": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 3,
+              "llm_id": "qwen2.5-72b",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 4,
+      "total_voting_rounds": 4,
+      "total_statements": 18,
+      "winner_role": "civilian",
+      "winner_ids": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 2,
+      "game_decision_quality": 0.5
+    },
+    "game_analysis": {}
+  }
+}

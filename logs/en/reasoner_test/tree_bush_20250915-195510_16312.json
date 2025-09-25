@@ -1,0 +1,549 @@
+{
+  "game_record": {
+    "game_id": "20250915-194635",
+    "timestamp": "2025-09-15T19:46:35.229292",
+    "topic_category": "reasoner_test",
+    "concept_pair": {
+      "concept_a": "tree",
+      "concept_b": "bush"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "qwq-plus",
+        "role": "civilian",
+        "assigned_concept": "tree",
+        "eliminated_in_voting_round": 1,
+        "is_winner": true
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-r1",
+        "role": "undercover",
+        "assigned_concept": "bush",
+        "eliminated_in_voting_round": 2,
+        "is_winner": false
+      },
+      {
+        "player_id": 3,
+        "llm_id": "gemini-2.5-pro-thinking",
+        "role": "civilian",
+        "assigned_concept": "tree",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "o1",
+        "role": "undercover",
+        "assigned_concept": "bush",
+        "eliminated_in_voting_round": 3,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "deepseek-v3",
+        "role": "civilian",
+        "assigned_concept": "tree",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 6,
+        "llm_id": "qwen2.5-72b",
+        "role": "civilian",
+        "assigned_concept": "tree",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 5,
+          "llm_id": "deepseek-v3",
+          "content": "It provides shade on a sunny day.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 3,
+          "llm_id": "gemini-2.5-pro-thinking",
+          "content": "It has a part that goes into the ground.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "It changes appearance with the seasons.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "It can be a source of oxygen and home to various animals.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "It can thrive in many outdoor areas and often provides protective shelter for smaller creatures.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 1,
+          "llm_id": "qwq-plus",
+          "content": "It has a central structure supporting branches that extend outward.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 7,
+          "player_id": 3,
+          "llm_id": "gemini-2.5-pro-thinking",
+          "content": "Its material is widely used to make furniture and paper.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 8,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "It can be trimmed and shaped to maintain its form and appearance.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 9,
+          "player_id": 5,
+          "llm_id": "deepseek-v3",
+          "content": "Its leaves can vary in color from green to red, yellow, or brown depending on the time of year.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 10,
+          "player_id": 2,
+          "llm_id": "deepseek-r1",
+          "content": "It is frequently shaped into dense barriers for garden boundaries.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 11,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "It plays a crucial role in the ecosystem, supporting a diverse range of wildlife and contributing to the carbon cycle.",
+          "statement_round": 2,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 12,
+          "player_id": 3,
+          "llm_id": "gemini-2.5-pro-thinking",
+          "content": "It is often much taller than a person.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 13,
+          "player_id": 6,
+          "llm_id": "qwen2.5-72b",
+          "content": "Its roots can extend deep into the soil, anchoring it firmly and drawing essential nutrients.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 14,
+          "player_id": 5,
+          "llm_id": "deepseek-v3",
+          "content": "Its rings can reveal its age and the environmental conditions it has experienced over the years.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 15,
+          "player_id": 4,
+          "llm_id": "o1",
+          "content": "Its growth can be influenced by careful pruning to guide how it expands and maintains its shape.",
+          "statement_round": 3,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [
+        {
+          "voting_round_id": 1,
+          "after_statement_round": 1,
+          "after_statement_id": 6,
+          "votes": [
+            {
+              "voter_id": 1,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 2,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 1
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 3
+            }
+          ],
+          "vote_results": {
+            "1": 3,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 1,
+              "llm_id": "qwq-plus",
+              "role": "civilian",
+              "correct_elimination": false
+            }
+          ]
+        },
+        {
+          "voting_round_id": 2,
+          "after_statement_round": 2,
+          "after_statement_id": 11,
+          "votes": [
+            {
+              "voter_id": 2,
+              "voted_for": 3
+            },
+            {
+              "voter_id": 3,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 5
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 2
+            }
+          ],
+          "vote_results": {
+            "2": 3,
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 2,
+              "llm_id": "deepseek-r1",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        },
+        {
+          "voting_round_id": 3,
+          "after_statement_round": 3,
+          "after_statement_id": 15,
+          "votes": [
+            {
+              "voter_id": 3,
+              "voted_for": 4
+            },
+            {
+              "voter_id": 4,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 5,
+              "voted_for": 2
+            },
+            {
+              "voter_id": 6,
+              "voted_for": 2
+            }
+          ],
+          "vote_results": {
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0
+          },
+          "eliminated": [
+            {
+              "player_id": 4,
+              "llm_id": "o1",
+              "role": "undercover",
+              "correct_elimination": true
+            }
+          ]
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 3,
+      "total_voting_rounds": 3,
+      "total_statements": 15,
+      "winner_role": "civilian",
+      "winner_ids": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "correct_identifications": 2,
+      "incorrect_identifications": 1,
+      "game_decision_quality": 0.6666666666666666
+    },
+    "game_analysis": {}
+  }
+}

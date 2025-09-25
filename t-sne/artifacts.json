@@ -1,0 +1,2002 @@
+[
+  {
+    "statement": "A personal space where people spend a significant portion of their night",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bed",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "An item that provides comfort and support during rest.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "mattress",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "It often requires specific sheets.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "mattress",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "Typically used as a stationary platform for rest or sleep.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "bed",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "It is often associated with pillows and mattresses.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bed",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "NONE",
+    "llm_id": "deepseek-v3",
+    "concept": "bed",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "A piece of furniture typically positioned in a bedroom, designed for horizontal rest",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bed",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "It usually has a headboard and may be adorned with blankets and throws.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bed",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "It is often found in a private room where people relax or sleep.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "bed",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "Its firmness contributes to spinal alignment.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "mattress",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "It can have various sizes, such as twin, queen, or king, to accommodate different users.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bed",
+    "statement_id": 11,
+    "statement_round": 3,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "A horizontal surface that can be customized with different types of materials for personal preference",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bed",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "Its internal structure can include springs or foam for enhanced relaxation.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "mattress",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250509-010429"
+  },
+  {
+    "statement": "It's a place where people often spend a significant portion of their day.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "bed",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It's something that provides comfort during rest.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "pillow",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "NONE",
+    "llm_id": "deepseek-v3",
+    "concept": "bed",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "A rectangular surface designed for horizontal body positioning during rest and sleep",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bed",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It often conforms to the shape of the head.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "pillow",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It typically has a raised edge to prevent the user from rolling off.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bed",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It usually has a mattress and sometimes includes additional components like a headboard or footboard for support and aesthetics.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bed",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It serves as a crucial addition for improved rest quality and comfort.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "pillow",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It requires specialized fabric coverings and can be customized with various decorative elements",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bed",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It is a piece of furniture that is essential for a good night's sleep and can vary in size and design.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "bed",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It often has storage space underneath for keeping personal items organized.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bed",
+    "statement_id": 11,
+    "statement_round": 3,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It requires periodic maintenance and can be equipped with various support structures for improved ergonomics",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bed",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "It enhances the overall experience of relaxation and is a key feature in achieving restful sleep.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "pillow",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250509-004250"
+  },
+  {
+    "statement": "A method of transportation that relies on human physical effort",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bike",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It has two wheels and requires balance to operate.",
+    "llm_id": "deepseek-v3",
+    "concept": "bike",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "A form of transportation often used for short-distance travel.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "bike",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It often has a platform for resting your feet.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "scooter",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It is a common mode of transportation that can be used for both recreation and commuting.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "bike",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It often has a handlebar for steering and can be folded for easy storage.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "scooter",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It allows you to travel longer distances compared to walking, often on roads or bike paths.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "bike",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It is often used in urban areas and can be a fun way to explore the city.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "bike",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It can have a foot brake for slowing down.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "scooter",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It can be powered by either human effort or a small engine, and is often used by people of all ages for short to medium distance trips.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "scooter",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "Can be seen in various colors and sizes, with different design variations for different terrains and purposes.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bike",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "Can be equipped with additional accessories like baskets, lights, and gears for enhanced functionality.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bike",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "They're often found parked on sidewalks or leaned against buildings.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "scooter",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It often requires pedaling as its primary mode of propulsion, allowing for exercise while moving.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "bike",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It is a versatile mode of transportation that can be used for both fitness and practical commuting.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "bike",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250508-234200"
+  },
+  {
+    "statement": "It's a mode of transportation used on water.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "boat",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It can carry large amounts of cargo across oceans.",
+    "llm_id": "deepseek-v3",
+    "concept": "ship",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It's commonly powered by sails, oars, or engines.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "boat",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It is often used for both recreational and commercial purposes.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "boat",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It has different sizes ranging from small personal vessels to massive maritime structures.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "boat",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It has been used for exploration, trade, and military purposes throughout history.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "ship",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "Navigates through various water environments like rivers, lakes, and seas.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "boat",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It can be designed for specific activities such as fishing, cruising, or racing.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "boat",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It is often constructed from materials such as wood, fiberglass, or metal.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "boat",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It has played a crucial role in global trade and cultural exchange over centuries.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "ship",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It is versatile in size and function, often used for leisure or practical purposes in various water environments.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "boat",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250508-233341"
+  },
+  {
+    "statement": "It's often large and commonly found indoors.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wardrobe",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It is frequently made of wood or similar material.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "cabinet",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It usually has doors or drawers for storage purposes.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "cabinet",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It can be used to store dishes or other household items.",
+    "llm_id": "deepseek-v3",
+    "concept": "cabinet",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It's typically used to organize personal clothing and accessories.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "wardrobe",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It is a common household item used for keeping things organized.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "cabinet",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It typically has shelves or compartments to separate and arrange its contents.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "cabinet",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It is often placed in kitchens or bathrooms for practical use.",
+    "llm_id": "deepseek-v3",
+    "concept": "cabinet",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It is frequently used to store sensitive or valuable items.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "cabinet",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It is commonly used to store clothing, with hanging rods or shelves inside.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wardrobe",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "It is a versatile piece of furniture that can be found in various rooms of a house.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "cabinet",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250509-002508"
+  },
+  {
+    "statement": "A piece of furniture used for storage.",
+    "llm_id": "deepseek-v3",
+    "concept": "cabinet",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Often found in kitchens and bathrooms to hold dishes, utensils, and personal care items.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "cabinet",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "A practical piece of furniture often used to organize items.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wardrobe",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "A large piece of furniture often used to store clothing.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "wardrobe",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Can be constructed from various materials like wood, metal, or plastic.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "cabinet",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "It is often installed against a wall, made of wood or composite materials.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "cabinet",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Commonly features doors and shelves, sometimes with drawers for additional organization.",
+    "llm_id": "deepseek-v3",
+    "concept": "cabinet",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Often has handles or knobs for easy opening and closing.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "cabinet",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "This furniture is often designed to keep things organized and tidy in a set space.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wardrobe",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Some variations come with a locking mechanism to protect its contents.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "cabinet",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Wardrobes often have hanging spaces and shelves to accommodate different types of clothing and accessories.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "wardrobe",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Frequently used in offices to store files and documents.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "cabinet",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Can be mounted on walls or stand independently on floors.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "cabinet",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Often used in kitchens to store dishes and pantry items, with adjustable shelves for versatility.",
+    "llm_id": "deepseek-v3",
+    "concept": "cabinet",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "This furniture is versatile and can be used to store various household items.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wardrobe",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Many are designed to store glassware and are often placed in dining rooms.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "cabinet",
+    "statement_id": 16,
+    "statement_round": 4,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Some pieces of this furniture are designed with multiple compartments for organizing different items.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "wardrobe",
+    "statement_id": 17,
+    "statement_round": 4,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Many are designed with a countertop surface for additional functionality in kitchens.",
+    "llm_id": "deepseek-v3",
+    "concept": "cabinet",
+    "statement_id": 18,
+    "statement_round": 4,
+    "game_id": "20250509-011047"
+  },
+  {
+    "statement": "Often used to capture special moments.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "camera",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "It helps preserve memories in a visual form.",
+    "llm_id": "deepseek-v3",
+    "concept": "camera",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "An essential tool for recording visual information with precision.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lens",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "It often uses lenses to focus light.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "camera",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "It can be held in one's hand for portable use.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "camera",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "It plays a crucial role in focusing and directing light.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "lens",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "It is often used in conjunction with devices that capture images.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "lens",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "Many models include a built-in flash for illuminating darker settings.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "camera",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "An object with curved surfaces that can manipulate light and visual information.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lens",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "Many modern versions allow wireless transfer of images to other devices.",
+    "llm_id": "deepseek-v3",
+    "concept": "camera",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "It is frequently used to create visual memories for both personal and professional purposes.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "camera",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "An optical component that can be found in various scientific and technological instruments.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lens",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "Some versions have a screen on the back for instant review of the images.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "camera",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "Often paired with advanced technology to capture high-quality visuals.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "camera",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "It often features adjustable settings for exposure and focus to enhance image quality.",
+    "llm_id": "deepseek-v3",
+    "concept": "camera",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250509-005713"
+  },
+  {
+    "statement": "It is a common mode of transportation for many people.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bus",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "It has wheels and an engine.",
+    "llm_id": "deepseek-v3",
+    "concept": "car",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "It is often used for daily commutes and road trips.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "car",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "It can carry a large number of passengers at the same time.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "bus",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "It provides protection from the elements while traveling.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "car",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "car",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "It requires fuel or electricity to operate and is often parked in a garage or driveway.",
+    "llm_id": "deepseek-v3",
+    "concept": "car",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "It often has a steering wheel and pedals for control.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "car",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "It typically travels on fixed routes and has designated stops along the way.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bus",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "It is equipped with various safety features such as airbags and seat belts.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "car",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250508-232906"
+  },
+  {
+    "statement": "It provides a flat surface for various activities.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "table",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It's something used to support the body in certain positions.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "chair",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It is often made of wood or metal and has legs to stand on.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "table",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It is commonly found in homes, offices, and public spaces, offering a place to sit.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "chair",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It often has a backrest and sometimes armrests for added comfort.",
+    "llm_id": "deepseek-v3",
+    "concept": "chair",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It can be adjusted in height and is often used in various settings requiring seated positioning.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "chair",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It often has drawers or shelves to store items, and its surface can be made of various materials, including glass or stone.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "table",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It provides a place for sitting, with designs often prioritizing posture support and comfort.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "chair",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It is designed to accommodate different body sizes and can be found in various styles and materials, from simple wooden designs to more complex ergonomic models.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "chair",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It can be customized with padding, upholstery, and different ergonomic features to enhance user comfort.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "chair",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "It can be folded for easy storage and is often used in outdoor settings like picnics or camping.",
+    "llm_id": "deepseek-v3",
+    "concept": "chair",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250508-231701"
+  },
+  {
+    "statement": "A curved container used for holding or serving various items",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bowl",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "Often used for both hot and cold contents, it's a common kitchen item.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bowl",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "Typically found in kitchens, it holds liquids for consumption.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "cup",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "A versatile container often used in daily life for various purposes.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "cup",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "A common item used during coffee breaks.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "cup",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "It usually has a handle and is often made of ceramic or glass.",
+    "llm_id": "deepseek-v3",
+    "concept": "cup",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "It's often placed on a saucer to catch spills.",
+    "llm_id": "deepseek-v3",
+    "concept": "cup",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "It\u9225\u6a9a often used to hold beverages like tea or coffee and may feature different designs or shapes.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "cup",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "It's often used to serve food, such as soup or cereal, and can be made of a variety of materials, including porcelain or wood.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bowl",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "Sometimes used for mixing ingredients or preparing food, it can have various depths and sizes.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "bowl",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "It's a common household item that can be used for a variety of tasks, from drinking to storing small items.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "cup",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "It's a container that is often used for serving hot and cold beverages and can be found in various sizes and materials.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "cup",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "It\u9225\u6a9a commonly used for drinking tea or coffee and is often paired with a saucer.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "cup",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "It's often used in formal settings, like tea parties, and can be part of a matching set.",
+    "llm_id": "deepseek-v3",
+    "concept": "cup",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "It's often used for serving individual portions of food, such as salads or desserts, and can be decorated with various designs or patterns.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "bowl",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250508-230740"
+  },
+  {
+    "statement": "A common household item used during meals.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "fork",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "It is a tool for handling food.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "spoon",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "A versatile utensil used when eating.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "fork",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "Something with multiple prongs used for piercing and transporting food",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "fork",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "Often placed to the left of the plate during a formal dinner setting.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "fork",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "It is often used to scoop liquids or soft foods.",
+    "llm_id": "deepseek-v3",
+    "concept": "spoon",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "Used to assist in eating various kinds of meals efficiently.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "fork",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "It has a concave shape designed to hold and carry substances to the mouth.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "spoon",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "It is often paired with a knife and used to cut and pick up food.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "fork",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "An item with sharp pointed ends typically made of metal or plastic",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "fork",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "Typically, it is made of metal and has a long handle attached to the working end.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "fork",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250509-003738"
+  },
+  {
+    "statement": "It is something that can be held in one's hand.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "lightbulb",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It is an object that serves a practical purpose.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "lamp",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It is often found inside a home.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "lamp",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "NONE",
+    "llm_id": "deepseek-v3",
+    "concept": "lamp",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It produces illumination when activated",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lightbulb",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It often has a switch to control its function.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "lamp",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It is usually found on a table or desk.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "lamp",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It requires electricity to function properly",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lightbulb",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It often emits light through a shade or cover.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "lamp",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It is commonly used to improve visibility in dark environments.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "lamp",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It commonly uses a bulb or LED as its primary light source.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "lamp",
+    "statement_id": 11,
+    "statement_round": 3,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It can be placed in various fixtures like lamps and ceiling sockets",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "lightbulb",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "It is often used to create a warm and inviting atmosphere in rooms.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "lamp",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250509-004959"
+  },
+  {
+    "statement": "A soft material that provides warmth and comfort",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "flannel",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "A common office supply that helps keep things organized.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "paperclip",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "A small, versatile tool used for a specific task.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "paperclip",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "A slim, metallic object frequently used in organizing papers.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "paperclip",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "Often used for clothing during colder seasons.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "flannel",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "A simple, bendable metal piece often found in desks and drawers.",
+    "llm_id": "deepseek-v3",
+    "concept": "paperclip",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "This item is often twisted into a loop shape to hold sheets together.",
+    "llm_id": "deepseek-v3",
+    "concept": "paperclip",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "It's something that can be easily misplaced if not properly stored after use.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "paperclip",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "This item is commonly found in offices and can be repurposed for various tasks.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "paperclip",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "It's a textile often associated with outdoor activities.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "flannel",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "A small office tool primarily used for fastening sheets together.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "paperclip",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250509-003241"
+  },
+  {
+    "statement": "It offers a place for rest.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "pillow",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "NONE",
+    "llm_id": "deepseek-v3",
+    "concept": "pillow",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It is often used to provide comfort and support for various parts of the body.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "cushion",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It is commonly associated with relaxation and bedtime.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "pillow",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It is a common household item used to enhance comfort.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "pillow",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It can be soft and come in various shapes and sizes.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "cushion",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It can be decorative and found in various rooms of a home.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "cushion",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It is often filled with soft materials such as foam or feathers to provide optimal comfort and support.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "cushion",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It helps align the spine during sleep.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "pillow",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It is designed to cradle or support the head during rest.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "pillow",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It is often used to improve the quality of rest and provide additional comfort.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "pillow",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250509-011811"
+  },
+  {
+    "statement": "It is a mode of transportation that can cover long distances quickly.",
+    "llm_id": "deepseek-v3",
+    "concept": "plane",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It is often used for both civilian and military purposes.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "helicopter",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It can often be seen flying above cities.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "helicopter",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It requires a specific infrastructure to take off and land safely.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "plane",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It is often associated with traveling through the skies.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "plane",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It is a common sight at major transportation hubs around the world.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "plane",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It is a vehicle that connects destinations across countries and continents.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "plane",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It requires specialized trained professionals to operate effectively.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "plane",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "Regular inspections are essential for ensuring its safe operation.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "helicopter",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It plays a crucial role in global commerce and tourism.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "plane",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It is equipped with wings and engines to generate lift and thrust.",
+    "llm_id": "deepseek-v3",
+    "concept": "plane",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It has become an essential part of modern travel and international trade.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "plane",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "Adherence to strict safety protocols is paramount for all journeys.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "helicopter",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "Different models have varying passenger capacities, ranging from small private jets to large commercial airliners.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "plane",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It often has a pressurized cabin to ensure passenger comfort at high altitudes.",
+    "llm_id": "deepseek-v3",
+    "concept": "plane",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It has significantly transformed the way people and goods move across the globe, making the world feel smaller.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "plane",
+    "statement_id": 16,
+    "statement_round": 4,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "Maintaining communication with ground control is critical for safe navigation.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "helicopter",
+    "statement_id": 17,
+    "statement_round": 4,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "It is capable of reaching destinations that would otherwise take days or weeks by other means of transport.",
+    "llm_id": "deepseek-v3",
+    "concept": "plane",
+    "statement_id": 18,
+    "statement_round": 4,
+    "game_id": "20250508-234958"
+  },
+  {
+    "statement": "Something people might sit on or use for support",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "stool",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-003008"
+  },
+  {
+    "statement": "It is often found in homes, offices, and public places, and comes in various designs and materials.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "stool",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-003008"
+  },
+  {
+    "statement": "NONE",
+    "llm_id": "deepseek-v3",
+    "concept": "bench",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-003008"
+  },
+  {
+    "statement": "It usually has three or four legs.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "stool",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-003008"
+  },
+  {
+    "statement": "It is a common piece of furniture used in various settings.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "stool",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-003008"
+  },
+  {
+    "statement": "It provides a place to relax and is often seen outdoors.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "bench",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-003008"
+  },
+  {
+    "statement": "It is commonly found in households and offices.",
+    "llm_id": "deepseek-v3",
+    "concept": "table",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-002048"
+  },
+  {
+    "statement": "It supports objects and can have multiple functional surfaces.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "table",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-002048"
+  },
+  {
+    "statement": "It is often used for work or study.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "desk",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-002048"
+  },
+  {
+    "statement": "It is a frequently used piece of furniture, often equipped for organization.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "desk",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-002048"
+  },
+  {
+    "statement": "It usually has legs to provide stability and elevation.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "table",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-002048"
+  },
+  {
+    "statement": "It can be made from various materials, including wood, metal, or glass.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "table",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-002048"
+  },
+  {
+    "statement": "It often features drawers or compartments for storing items.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "desk",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-002048"
+  },
+  {
+    "statement": "It often serves as a surface to write or work on.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "desk",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-002048"
+  },
+  {
+    "statement": "",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "table",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-002048"
+  },
+  {
+    "statement": "It is a mode of transportation.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "train",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "Can move along a predetermined fixed path.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "train",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It is often used for long-distance travel.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "train",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It typically operates on a scheduled timetable and has designated stops.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "subway",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It often consists of multiple connected carriages.",
+    "llm_id": "deepseek-v3",
+    "concept": "train",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It moves underground in many cities.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "subway",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It requires a specific infrastructure of metal tracks to operate.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "train",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It is a common method of public transportation in many countries.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "train",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It can be powered by electricity, diesel, or steam engines.",
+    "llm_id": "deepseek-v3",
+    "concept": "train",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It often carries both people and goods.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "train",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It often has a distinct map or diagram to help passengers navigate its network.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "subway",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It plays a significant role in industrial and passenger transportation infrastructure.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "train",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It often has a designated conductor or driver responsible for its operation.",
+    "llm_id": "deepseek-v3",
+    "concept": "train",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It is frequently associated with railroad tracks.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "train",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It usually operates within a metropolitan area, connecting various parts of the city.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "subway",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250509-001336"
+  },
+  {
+    "statement": "It is a vehicle for transportation.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "truck",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It commonly has four wheels and is powered by an engine.",
+    "llm_id": "deepseek-v3",
+    "concept": "car",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It's a common means of personal travel in modern times.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "car",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It is often used for both personal and commercial purposes.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "truck",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It can carry significant cargo and is often larger than typical passenger vehicles.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "truck",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It is a versatile vehicle used for various tasks, from personal to commercial.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "truck",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It is often associated with construction sites and transporting materials.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "truck",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It typically requires a special license to operate for commercial purposes.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "truck",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It is a common sight in urban areas, often parked in driveways and used for daily commutes.",
+    "llm_id": "deepseek-v3",
+    "concept": "car",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It can be used for heavy-duty tasks and is essential in industries like logistics and construction.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "truck",
+    "statement_id": 10,
+    "statement_round": 2,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It is a reliable mode of transport that can handle a variety of terrains and conditions.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "truck",
+    "statement_id": 11,
+    "statement_round": 2,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It is often equipped with features like air conditioning and entertainment systems for passenger comfort.",
+    "llm_id": "deepseek-v3",
+    "concept": "car",
+    "statement_id": 12,
+    "statement_round": 3,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It can be customized with various accessories and equipment to suit different needs and industries.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "truck",
+    "statement_id": 13,
+    "statement_round": 3,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It provides a comfortable space for passengers during journeys.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "truck",
+    "statement_id": 14,
+    "statement_round": 3,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "It is a vehicle that can be adapted for various uses, from everyday commuting to specialized tasks.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "truck",
+    "statement_id": 15,
+    "statement_round": 3,
+    "game_id": "20250509-000512"
+  },
+  {
+    "statement": "A device often used for cleaning purposes.",
+    "llm_id": "gpt-4o-2024-11-20",
+    "concept": "vacuum",
+    "statement_id": 1,
+    "statement_round": 1,
+    "game_id": "20250508-232508"
+  },
+  {
+    "statement": "It often involves a handle and bristles.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "broom",
+    "statement_id": 2,
+    "statement_round": 1,
+    "game_id": "20250508-232508"
+  },
+  {
+    "statement": "It is typically used to pick up dirt and dust from floors and surfaces.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "vacuum",
+    "statement_id": 3,
+    "statement_round": 1,
+    "game_id": "20250508-232508"
+  },
+  {
+    "statement": "A tool commonly found in households for maintaining cleanliness.",
+    "llm_id": "qwen2.5-72b",
+    "concept": "vacuum",
+    "statement_id": 4,
+    "statement_round": 1,
+    "game_id": "20250508-232508"
+  },
+  {
+    "statement": "NONE",
+    "llm_id": "deepseek-v3",
+    "concept": "broom",
+    "statement_id": 5,
+    "statement_round": 1,
+    "game_id": "20250508-232508"
+  },
+  {
+    "statement": "Operates using suction power to collect unwanted particles.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "vacuum",
+    "statement_id": 6,
+    "statement_round": 1,
+    "game_id": "20250508-232508"
+  },
+  {
+    "statement": "It helps maintain a tidy environment in homes.",
+    "llm_id": "gemini-2.0-pro-exp",
+    "concept": "broom",
+    "statement_id": 7,
+    "statement_round": 2,
+    "game_id": "20250508-232508"
+  },
+  {
+    "statement": "Requires electrical power to function effectively in its cleaning role.",
+    "llm_id": "claude-3-5-haiku-20241022",
+    "concept": "vacuum",
+    "statement_id": 8,
+    "statement_round": 2,
+    "game_id": "20250508-232508"
+  },
+  {
+    "statement": "It usually has a bag or container to collect the dirt and debris it picks up.",
+    "llm_id": "llama-3.3-70b-instruct",
+    "concept": "vacuum",
+    "statement_id": 9,
+    "statement_round": 2,
+    "game_id": "20250508-232508"
+  }
+]

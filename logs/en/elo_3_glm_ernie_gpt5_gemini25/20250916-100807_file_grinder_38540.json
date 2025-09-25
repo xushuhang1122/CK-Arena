@@ -1,0 +1,246 @@
+{
+  "game_record": {
+    "game_id": "20250916-100515",
+    "timestamp": "2025-09-16T10:05:15.360740",
+    "topic_category": "elo_3_glm_ernie_gpt5_gemini25",
+    "concept_pair": {
+      "concept_a": "file",
+      "concept_b": "grinder"
+    },
+    "judges": [
+      {
+        "id": "emb",
+        "version": ""
+      },
+      {
+        "id": "qw3",
+        "version": ""
+      }
+    ],
+    "players": [
+      {
+        "player_id": 1,
+        "llm_id": "claude-opus-4-1-20250805",
+        "role": "civilian",
+        "assigned_concept": "file",
+        "eliminated_in_voting_round": -1,
+        "is_winner": false
+      },
+      {
+        "player_id": 2,
+        "llm_id": "deepseek-v3",
+        "role": "undercover",
+        "assigned_concept": "grinder",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 3,
+        "llm_id": "qwen2.5-72b",
+        "role": "undercover",
+        "assigned_concept": "grinder",
+        "eliminated_in_voting_round": null,
+        "is_winner": true
+      },
+      {
+        "player_id": 4,
+        "llm_id": "gemini-2.5-flash-preview-05-20",
+        "role": "civilian",
+        "assigned_concept": "file",
+        "eliminated_in_voting_round": -1,
+        "is_winner": false
+      },
+      {
+        "player_id": 5,
+        "llm_id": "ernie-4.5-300b-a47b",
+        "role": "civilian",
+        "assigned_concept": "file",
+        "eliminated_in_voting_round": null,
+        "is_winner": false
+      },
+      {
+        "player_id": 6,
+        "llm_id": "gpt-5",
+        "role": "civilian",
+        "assigned_concept": "file",
+        "eliminated_in_voting_round": null,
+        "is_winner": false
+      }
+    ],
+    "game_process": {
+      "statements": [
+        {
+          "statement_id": 1,
+          "player_id": 5,
+          "llm_id": "ernie-4.5-300b-a47b",
+          "content": "An object commonly used for organizing information.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 2,
+          "player_id": 2,
+          "llm_id": "deepseek-v3",
+          "content": "A tool often found in workshops.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 3,
+          "player_id": 6,
+          "llm_id": "gpt-5",
+          "content": "Found both on desks and in toolboxes.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 4,
+          "player_id": 3,
+          "llm_id": "qwen2.5-72b",
+          "content": "A device used for refining materials through abrasion.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 0
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 5,
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "content": "It removes material to create a desired form.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 1
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        },
+        {
+          "statement_id": 6,
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "content": "Something that helps make things more refined and organized.",
+          "statement_round": 1,
+          "metrics": {
+            "judges_evaluations": [
+              {
+                "judge_id": "emb",
+                "type": "reasonableness",
+                "eliminate": 1
+              },
+              {
+                "judge_id": "qw3",
+                "type": "novelty",
+                "eliminate": 0
+              }
+            ],
+            "judges_stats": null
+          }
+        }
+      ],
+      "voting_rounds": [],
+      "metric_eliminations": [
+        {
+          "player_id": 4,
+          "llm_id": "gemini-2.5-flash-preview-05-20",
+          "role": "civilian",
+          "elimination_round": 1,
+          "elimination_reason": "Low reasonableness",
+          "metrics": {
+            "reasonableness_eliminate": 1,
+            "novelty_eliminate": 0
+          }
+        },
+        {
+          "player_id": 1,
+          "llm_id": "claude-opus-4-1-20250805",
+          "role": "civilian",
+          "elimination_round": 1,
+          "elimination_reason": "Low reasonableness",
+          "metrics": {
+            "reasonableness_eliminate": 1,
+            "novelty_eliminate": 0
+          }
+        }
+      ]
+    },
+    "game_summary": {
+      "total_statement_rounds": 1,
+      "total_voting_rounds": 0,
+      "total_statements": 6,
+      "winner_role": "undercover",
+      "winner_ids": [
+        2,
+        3
+      ],
+      "correct_identifications": 0,
+      "incorrect_identifications": 0,
+      "game_decision_quality": 0
+    },
+    "game_analysis": {}
+  }
+}
