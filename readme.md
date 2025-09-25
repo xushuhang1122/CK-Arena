@@ -16,6 +16,7 @@ This project implements a language model-based version of the popular social ded
 │   │   ├── prompts.py         # Contains prompt templates for different languages
 │   │   └── utils.py           # Utility functions for API calls
 │   ├── game.py                # Core game logic and state management
+│   ├── game_automated.py      # Automated game mode using SFT and embedding models
 │   ├── judge.py               # Abstract base class for judges
 │   └── player.py              # Abstract base class for players
 ├── data/
@@ -35,6 +36,8 @@ This project implements a language model-based version of the popular social ded
 │   ├── audience.py            # Abstract base class for audiences
 │   ├── judge.py               # Abstract base class for judges
 │   └── player.py              # Abstract base class for players
+├── rating.py                  # Game log processor for ELO rating calculations
+├── main_batch.py              # Batch game runner for efficient repeated experiments
 └── main.py                    # Entry point for running games
 ```
 
@@ -67,12 +70,30 @@ The game supports multiple languages through language-specific prompt templates:
 
 ## How to Run
 
+
 ```bash
 pip install openai
 pip install requests
+```
+
+Single game
+```bash
 python main.py
 ```
 You can adjust the language, round settings, participating players, and referees of the game by modifying the class **game_settings** and player/judge initialization information in `main.py`.
+
+Batch Games
+```bash
+python main_batch.py
+```
+Configure batch settings including number of games, parallel processing options, and word pair lists for efficient repeated experiments.
+
+
+```bash
+rating.py
+```
+Process game logs to calculate ELO ratings and generate performance reports for participating models.
+
 
 ## Game Flow
 
