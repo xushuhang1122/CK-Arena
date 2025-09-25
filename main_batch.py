@@ -205,15 +205,6 @@ class BatchGameRunner:
         total_games = len(word_pairs) * rounds_per_pair
         completed_games = 0
 
-        print(f"\n{'=' * 70}")
-        print(f"🚀 Starting parallel batch game execution")
-        print(f"📝 Number of word pairs: {len(word_pairs)}")
-        print(f"🔄 Rounds per word pair: {rounds_per_pair}")
-        print(f"🎯 Total games: {total_games}")
-        print(f"🧵 Max concurrent threads: {max_workers}")
-        print(f"📦 Batch processing size: {chunk_size}")
-        print(f"{'=' * 70}\n")
-
         # Process word pairs in chunks
         for chunk_start in range(0, len(word_pairs), chunk_size):
             chunk_end = min(chunk_start + chunk_size, len(word_pairs))
@@ -441,7 +432,7 @@ class BatchGameRunner:
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
 
-        print(f"📁 Batch results saved to: {output_file}")
+        print(f"Batch results saved to: {output_file}")
 
 
 def main():
@@ -489,10 +480,10 @@ def main():
         with open(data_path, 'r', encoding='utf-8') as file:
             word_pairs = json.load(file)
     except FileNotFoundError:
-        print(f"❌ Error: File not found {data_path}")
+        print(f"Error: File not found {data_path}")
         return
     except json.JSONDecodeError:
-        print(f"❌ Error: Unable to parse JSON file {data_path}")
+        print(f"Error: Unable to parse JSON file {data_path}")
         return
 
     # Can choose to run only the first N word pairs for testing
