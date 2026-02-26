@@ -140,6 +140,12 @@ To extend the game with new player or judge implementations, extend the base cla
 To add support for a new language, create new prompt template files in `agents/prompts/` following the existing pattern.
 
 
+## Dataset
+
+The dataset used in this project is available on Hugging Face:
+
+- [CK-Arena Dataset](https://huggingface.co/datasets/Xushuhaha/CK-Arena)
+
 ## Citation
 
 If you find this work useful, please cite:
