@@ -145,7 +145,7 @@ To add support for a new language, create new prompt template files in `agents/p
 If you find this work useful, please cite:
 
 ```bibtex
-@article{xu2025probe,
+@article{xu2025CKarena,
   title={Is Your LLM Really Mastering the Concept? A Multi-Agent Benchmark},
   author={Shuhang Xu and Weijian Deng and Yixuan Zhou and Fangwei Zhong},
   journal={arXiv preprint arXiv:2505.17512},
