@@ -138,3 +138,17 @@ Game records are stored in the `logs/` directory, organized by language and topi
 To extend the game with new player or judge implementations, extend the base classes in `undercover/` and implement the required methods.
 
 To add support for a new language, create new prompt template files in `agents/prompts/` following the existing pattern.
+
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{xu2025probe,
+  title={Is Your LLM Really Mastering the Concept? A Multi-Agent Benchmark},
+  author={Shuhang Xu and Weijian Deng and Yixuan Zhou and Fangwei Zhong},
+  journal={arXiv preprint arXiv:2505.17512},
+  year={2026}
+}
+```
