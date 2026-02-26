@@ -1,0 +1,20 @@
+[
+    ["upper", "elite"],
+    ["aristocrat", "noble"],
+    ["peasant", "farmer"],
+    ["proletariat", "worker"],
+    ["gentry", "landowner"],
+    ["middle-class", "upper-middle-class"],
+    ["bourgeoisie", "middleclass"],
+    ["proletariat", "workingclass"],
+    ["elite", "upperclass"],
+    ["peasant", "serf"],
+    ["proletariat", "working"],
+    ["bourgeoisie", "merchant"],
+    ["bourgeoisie", "elite"],
+    ["chef", "cook"],
+    ["architect", "designer"],
+    ["doctor", "physician"],
+    ["teacher", "professor"],
+    ["lawyer", "attorney"]
+]

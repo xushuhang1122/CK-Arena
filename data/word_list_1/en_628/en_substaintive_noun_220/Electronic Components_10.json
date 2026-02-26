@@ -1,0 +1,12 @@
+[
+    ["amplifier", "oscillator"],
+    ["resistor", "capacitor"],
+    ["transistor", "diode"],
+    ["voltmeter", "ammeter"],
+    ["inductor", "transformer"],
+    ["voltage", "current"],
+    ["microprocessor", "microcontroller"],
+    ["inductor", "coil"],
+    ["light", "bulb"],
+    ["microchip", "processor"]
+]

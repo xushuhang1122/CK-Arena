@@ -1,0 +1,17 @@
+[
+    ["parrot", "crow" ],
+    ["shark", "whale"],
+    ["wolf", "tiger"],
+    ["elephant", "giraffe"],
+    ["lion", "tiger"],
+    ["tiger", "lion"],
+    ["snake", "lizard"],
+    ["fox", "coyote"],
+    ["bee", "butterfly"],
+    ["goose","duck"],
+    ["elephant", "mammoth"],
+    ["lion", "rhino"],
+    ["toad","frog"],
+    ["turtle","tortoise"],
+    ["moth","butterfly"]
+]

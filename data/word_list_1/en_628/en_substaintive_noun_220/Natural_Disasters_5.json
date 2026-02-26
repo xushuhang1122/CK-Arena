@@ -1,0 +1,7 @@
+[
+    ["flood", "drought"],
+    ["tsunami", "volcano"],
+    ["volcano", "earthquake"],
+    ["volcano", "eruption"],
+    ["tornado", "hurricane"]
+]

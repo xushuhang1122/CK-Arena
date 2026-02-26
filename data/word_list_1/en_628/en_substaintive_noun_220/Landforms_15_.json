@@ -1,0 +1,17 @@
+[
+    ["continent", "island"],
+    ["desert", "oasis"],
+    ["mountain", "hill"],
+    ["river", "lake"],
+    ["valley", "plain"],
+    ["peninsula", "isthmus"],
+    ["valley", "canyon"],
+    ["peninsula", "cape"],
+    ["island", "archipelago"],
+    ["desert", "sand"],
+    ["river", "stream"],
+    ["valley", "canyon"],
+    ["valley", "plain"],
+    ["ocean","sea"],
+    ["desert","sandbeach"]
+]
