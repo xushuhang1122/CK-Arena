@@ -1,150 +1,155 @@
-# Undercover Game
+# CK-Arena
 
-A language-based multiplayer game where players try to identify the "undercover" among them based on their descriptions of a given concept.
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2505.17512-b31b1b)](https://arxiv.org/abs/2505.17512)
+[![Homepage](https://img.shields.io/badge/Homepage-ck--arena.site-blue)](https://ck-arena.site)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/Xushuhaha/CK-Arena)
 
-## Overview
+![CK-Arena Overview](docs/figure/overview.png)
 
-This project implements a language model-based version of the popular social deduction game "Undercover". The game assigns different concepts to players who then make statements about their assigned concept. The goal is to identify the player(s) with a different concept (the "undercover") through voting rounds.
+## Introduction
+
+CK-Arena is a multi-agent benchmark that evaluates whether large language models truly master concept knowledge. The benchmark uses a language-based social deduction game ("Undercover") where LLM players describe assigned concepts, and LLM judges score the statements. By comparing similar word pairs and tracking model performance over many games, CK-Arena produces a reliable ELO-based leaderboard of concept-level knowledge.
+
+## Table of Contents
+
+- [Dataset](#dataset)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Leaderboard](#leaderboard)
+- [Citation](#citation)
+
+## Dataset
+
+### Overview
+
+The dataset is hosted on HuggingFace: [Xushuhaha/CK-Arena](https://huggingface.co/datasets/Xushuhaha/CK-Arena).
+
+It consists of two parts: word pair lists used in gameplay and fine-tuning data for the judge model.
+
+### Word Pair Lists
+
+Word pairs are stored in `data/word_list_1/en_628/` and organised by part of speech:
+
+```
+data/word_list_1/en_628/
+├── adjective_100.json        # 100 adjective pairs
+├── adverb_109.json           # 109 adverb pairs
+├── verb_100.json             # 100 verb pairs
+└── en_substaintive_noun_220/ # 220 substantive noun pairs split by category
+    ├── Animals_16.json
+    ├── Food_33_.json
+    ├── Tools_19.json
+    └── ...
+```
+
+Each JSON file is a list of two-element arrays, one pair per entry:
+
+```json
+[
+  ["happy", "joyful"],
+  ["angry", "furious"],
+  ["sad", "melancholic"]
+]
+```
+
+### Judge Fine-tuning Data Format
+
+`data/train.jsonl` and `data/test.jsonl` contain training and test data for fine-tuning the judge model. Each line is a JSON object with a `messages` field following the chat format:
+
+```json
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You will receive a word and a descriptive sentence, please judge whether this sentence is reasonable for describing the word."
+    },
+    {
+      "role": "user",
+      "content": "\nWhat needs to be judged:\nWord: bee\nSentence: An organism that lives in complex social structures with a hierarchical organization\n"
+    },
+    {
+      "role": "assistant",
+      "content": "1"
+    }
+  ]
+}
+```
+
+The assistant outputs `"1"` for a valid statement and `"0"` for an invalid one.
 
 ## Project Structure
 
 ```
+CK-Arena/
 ├── undercover/
-│   ├── agents                 
-│   │   ├── player_agent.py    # LLM-based player implementation
-│   │   ├── judge_agent.py     # LLM-based judge implementation
-│   │   ├── prompts.py         # Contains prompt templates for different languages
-│   │   └── utils.py           # Utility functions for API calls
+│   ├── agents/
+│   │   ├── player_agent.py    # LLM-based player
+│   │   ├── judge_agent.py     # LLM-based judge
+│   │   ├── prompts.py         # Prompt templates for all supported languages
+│   │   └── utils.py           # API call utilities
 │   ├── game.py                # Core game logic and state management
-│   ├── game_automated.py      # Automated game mode using SFT and embedding models
+│   ├── game_automated.py      # Automated mode using SFT and embedding models
 │   ├── judge.py               # Abstract base class for judges
 │   └── player.py              # Abstract base class for players
-├── data/
-│   └── word_list_1/           # Contains word pairs for the game
-│       ├── cn_755/
-│       └── ...
-├── logs/
-│   └── en/                    # Game records in English
 ├── undercover_audience/
-│   ├── agents               
-│   │   ├── audience_agent.py  # LLM-based audience implementation
-│   │   ├── player_agent.py    # LLM-based player implementation
-│   │   ├── judge_agent.py     # LLM-based judge implementation
-│   │   ├── prompts.py         # Contains prompt templates for different languages
-│   │   └── utils.py           # Utility functions for API calls
-│   ├── game.py                # Core game logic and state management
-│   ├── audience.py            # Abstract base class for audiences
-│   ├── judge.py               # Abstract base class for judges
-│   └── player.py              # Abstract base class for players
-├── rating.py                  # Game log processor for ELO rating calculations
-├── main_batch.py              # Batch game runner for efficient repeated experiments
-└── main.py                    # Entry point for running games
+│   ├── agents/
+│   │   ├── audience_agent.py  # LLM-based audience
+│   │   ├── player_agent.py
+│   │   ├── judge_agent.py
+│   │   ├── prompts.py
+│   │   └── utils.py
+│   ├── game.py
+│   ├── audience.py
+│   ├── judge.py
+│   └── player.py
+├── data/
+│   ├── word_list_1/en_628/    # Word pair files by POS and category
+│   ├── train.jsonl            # Judge fine-tuning training split
+│   └── test.jsonl             # Judge fine-tuning test split
+├── docs/figure/               # Figures used in this README
+├── logs/                      # Game records organised by language
+├── main.py                    # Entry point for a single game
+├── main_batch.py              # Batch game runner
+└── rating.py                  # ELO rating calculator
 ```
 
-## Key Components
+## Usage
 
-### Core Game Classes
-
-- **UndercoverGame** (`undercover/game.py`): Manages the game state, coordinates player interactions, and handles the game flow including statement and voting rounds.
-- **Player** (`undercover/player.py`): Abstract base class defining the interface for player implementations.
-- **Judge** (`undercover/judge.py`): Abstract base class defining the interface for judge implementations.
-
-### Agent Implementations
-
-- **LLMPlayer** (`agents/player_agent.py`): Language model-based player implementation that generates statements and makes voting decisions.
-- **LLMJudge** (`agents/judge_agent.py`): Language model-based judge that evaluates player statements for novelty, relevance, and reasonableness.
-
-### Multi-language Support
-
-The game supports multiple languages through language-specific prompt templates:
-- English (en) (Experimental used)
-- Chinese (zh)
-- French (fr)
-- Spanish (es)
-- Italian (it)
-- Portuguese (pt)
-- German (de)
-- Russian (ru)
-- Arabic (ar)
-- Japanese (ja)
-
-## How to Run
-
+### Installation
 
 ```bash
-pip install openai
-pip install requests
+pip install openai requests
 ```
 
-Single game
+### Single Game
+
 ```bash
 python main.py
 ```
-You can adjust the language, round settings, participating players, and referees of the game by modifying the class **game_settings** and player/judge initialization information in `main.py`.
 
-Batch Games
+Adjust the language, round settings, participating models, and judge by modifying `game_settings` and the player/judge initialisation in `main.py`.
+
+### Batch Games
+
 ```bash
 python main_batch.py
 ```
-Configure batch settings including number of games, parallel processing options, and word pair lists for efficient repeated experiments.
 
+Configure the number of games, parallel processing options, and word pair lists for efficient repeated experiments.
+
+### Rating Calculation
 
 ```bash
-rating.py
+python rating.py
 ```
-Process game logs to calculate ELO ratings and generate performance reports for participating models.
 
+Processes game logs in `logs/` to compute ELO ratings and generate performance reports for all participating models.
 
-## Game Flow
+## Leaderboard
 
-1. **Initialization**:
-   - Players and judges are created
-   - Players are assigned roles (civilian or undercover)
-   - Each role gets an assigned concept
+![Model Leaderboard](docs/figure/leaderboard.png)
 
-2. **Statement Rounds**:
-   - Each player makes statements about their assigned concept
-   - Judges evaluate statements for quality
-
-3. **Voting Rounds**:
-   - After a specified number of statement rounds, players vote
-   - The player with the most votes is eliminated
-   - The game continues until a winning condition is met
-
-4. **Winning Conditions**:
-   - Civilians win if all undercovers are eliminated
-   - Undercovers win if the ratio of undercovers to civilians becomes equal
-
-## Configuration
-
-Game settings can be customized in `main.py`:
-- Topic category
-- Concept pairs
-- Number of civilians and undercovers
-- Maximum statement rounds
-- Number of statements before voting
-- Language setting
-
-## Logs and Records
-
-Game records are stored in the `logs/` directory, organized by language and topic category. Each game record contains:
-- Game ID and timestamp
-- Player information and roles
-- All statements and voting results
-- Game summary and analysis
-
-## Development
-
-To extend the game with new player or judge implementations, extend the base classes in `undercover/` and implement the required methods.
-
-To add support for a new language, create new prompt template files in `agents/prompts/` following the existing pattern.
-
-
-## Dataset
-
-The dataset used in this project is available on Hugging Face:
-
-- [CK-Arena Dataset](https://huggingface.co/datasets/Xushuhaha/CK-Arena)
+*Last updated: March 2026*
 
 ## Citation
 
