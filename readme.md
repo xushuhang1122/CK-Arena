@@ -14,7 +14,7 @@ CK-Arena is a multi-agent benchmark that evaluates whether large language models
 
 - [Dataset](#dataset)
 - [Project Structure](#project-structure)
-- [Usage](#usage)
+- [How to Start](#how-to-start)
 - [Leaderboard](#leaderboard)
 - [Citation](#citation)
 
@@ -24,7 +24,7 @@ CK-Arena is a multi-agent benchmark that evaluates whether large language models
 
 The dataset is hosted on HuggingFace: [Xushuhaha/CK-Arena](https://huggingface.co/datasets/Xushuhaha/CK-Arena).
 
-It consists of two parts: word pair lists used in gameplay and fine-tuning data for the judge model.
+It contains word pair lists organised by part of speech and semantic category, used as the concept vocabulary for gameplay.
 
 ### Word Pair Lists
 
@@ -52,31 +52,6 @@ Each JSON file is a list of two-element arrays, one pair per entry:
 ]
 ```
 
-### Judge Fine-tuning Data Format
-
-`data/train.jsonl` and `data/test.jsonl` contain training and test data for fine-tuning the judge model. Each line is a JSON object with a `messages` field following the chat format:
-
-```json
-{
-  "messages": [
-    {
-      "role": "system",
-      "content": "You will receive a word and a descriptive sentence, please judge whether this sentence is reasonable for describing the word."
-    },
-    {
-      "role": "user",
-      "content": "\nWhat needs to be judged:\nWord: bee\nSentence: An organism that lives in complex social structures with a hierarchical organization\n"
-    },
-    {
-      "role": "assistant",
-      "content": "1"
-    }
-  ]
-}
-```
-
-The assistant outputs `"1"` for a valid statement and `"0"` for an invalid one.
-
 ## Project Structure
 
 ```
@@ -103,9 +78,7 @@ CK-Arena/
 │   ├── judge.py
 │   └── player.py
 ├── data/
-│   ├── word_list_1/en_628/    # Word pair files by POS and category
-│   ├── train.jsonl            # Judge fine-tuning training split
-│   └── test.jsonl             # Judge fine-tuning test split
+│   └── word_list_1/en_628/    # Word pair files by POS and category
 ├── docs/figure/               # Figures used in this README
 ├── logs/                      # Game records organised by language
 ├── main.py                    # Entry point for a single game
@@ -113,37 +86,126 @@ CK-Arena/
 └── rating.py                  # ELO rating calculator
 ```
 
-## Usage
+## How to Start
 
-### Installation
+### 1. Install Dependencies
 
 ```bash
 pip install openai requests
 ```
 
-### Single Game
+### 2. Configure the API Client
+
+All LLM calls go through `undercover/agents/utils.py`. Open the file and set your API credentials at the top:
+
+```python
+# undercover/agents/utils.py
+
+OPENAI_API_KEY = "sk-..."          # your API key
+OPENAI_BASE_URL = "https://..."    # base URL of any OpenAI-compatible endpoint
+                                   # leave as None to use the official OpenAI API
+```
+
+The `call_api` function in that file uses the standard OpenAI Python SDK and works with any compatible provider (OpenAI, Azure, local servers, etc.).
+
+If you plan to use **audience mode**, the same configuration must also be applied to `undercover_audience/agents/utils.py`. That file contains a stub `call_api` function with a `#TODO` marker — replace the body with the same implementation as in `undercover/agents/utils.py`:
+
+```python
+# undercover_audience/agents/utils.py
+
+OPENAI_API_KEY = "sk-..."
+OPENAI_BASE_URL = "https://..."
+
+def call_api(llm_info):
+    client = OpenAI(
+        api_key=OPENAI_API_KEY or os.environ.get("OPENAI_API_KEY"),
+        base_url=OPENAI_BASE_URL,
+    )
+    response = client.chat.completions.create(
+        model=llm_info["model"],
+        messages=llm_info["input_messages"],
+        temperature=llm_info.get("temperature", llm_set["temperature"]),
+        max_tokens=llm_info.get("max_tokens", llm_set["max_tokens"]),
+    )
+    ret = response.choices[0].message.content or ""
+    # strip markdown code fences if present
+    if '```json' in ret:
+        s = ret.find('```json')
+        s = ret.find('\n', s) + 1
+        e = ret.find('```', s)
+        if e != -1:
+            ret = ret[s:e].strip()
+    elif '```' in ret:
+        s = ret.find('```') + 3
+        e = ret.find('```', s)
+        if s > 2 and e > s:
+            ret = ret[s:e].strip()
+    return ret.strip()
+```
+
+### 3. Configure `main.py`
+
+Open `main.py` and edit the following variables:
+
+```python
+# Choose game mode
+GAME_MODE = "standard"   # "standard": players vote | "audience": audience agent decides
+
+# List of player models — each entry is [model_name, label]
+player = [
+    ["gpt-4o", ""],
+    ["gpt-4o", ""],
+    ["gpt-4o", ""],
+]
+
+# Judge model
+judge = [
+    ["gpt-4o", ""],
+]
+
+# Audience model (only used when GAME_MODE == "audience")
+audience_llm = ["gpt-4o", ""]
+
+# Path to a word-pair JSON file
+data_path = "data/word_list_1/en_628/adjective_100.json"
+```
+
+Then adjust `game_settings` inside the loop as needed:
+
+| Key | Description |
+|---|---|
+| `log_folder_path` | Base folder name for saving game logs |
+| `topic_category` | Label for the word category (used in log path) |
+| `pair` | Two-word pair drawn from the loaded JSON file |
+| `civilian_count` | Number of civilian players |
+| `undercover_count` | Number of undercover players |
+| `max_statement_rounds` | Maximum statement rounds per game |
+| `statements_per_voting` | Statement rounds between each vote |
+| `language` | Game language (`en`, `zh`, `fr`, `ru`, `es`, `ja`, `ar`, `de`, `it`, `pt`) |
+
+### 4. Run a Single Game
 
 ```bash
 python main.py
 ```
 
-Adjust the language, round settings, participating models, and judge by modifying `game_settings` and the player/judge initialisation in `main.py`.
+Game records are saved under `logs/<log_folder_path>_<mode>/<language>/<topic_category>/`.
 
-### Batch Games
+### 5. Run Batch Games
 
 ```bash
 python main_batch.py
 ```
 
-Configure the number of games, parallel processing options, and word pair lists for efficient repeated experiments.
+Edit `main_batch.py` to configure the number of games, concurrency, and which word-pair files to iterate over.
 
-### Rating Calculation
+### 6. Calculate ELO Ratings
 
 ```bash
 python rating.py
 ```
 
-Processes game logs in `logs/` to compute ELO ratings and generate performance reports for all participating models.
+Reads all logs in `logs/` and outputs an ELO leaderboard for every model that participated.
 
 ## Leaderboard
 
