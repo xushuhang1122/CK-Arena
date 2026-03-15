@@ -24,12 +24,21 @@
 
 ## Table of Contents
 
+- [Leaderboard](#leaderboard)
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Project Structure](#project-structure)
 - [How to Start](#how-to-start)
-- [Leaderboard](#leaderboard)
 - [Citation](#citation)
+---
+
+## Leaderboard
+
+<p align="center">
+  <img src="docs/figure/leaderboard.png" alt="Model Leaderboard" width="800">
+</p>
+
+*Last updated: March 2026*
 
 ---
 
@@ -41,7 +50,6 @@ CK-Arena is a multi-agent benchmark that evaluates whether large language models
 
 - Multi-agent gameplay with LLM players and LLM judges
 - 628 curated word pairs across adjectives, adverbs, verbs, and nouns
-- 10 supported languages: `en`, `zh`, `fr`, `ru`, `es`, `ja`, `ar`, `de`, `it`, `pt`
 - ELO-based model leaderboard for reliable cross-model comparison
 - Standard (player-vote) and audience (audience-agent-decides) game modes
 - Compatible with any OpenAI-compatible API provider
@@ -206,15 +214,6 @@ python rating.py
 
 Reads all logs in `logs/` and outputs an ELO leaderboard for every model that participated.
 
----
-
-## Leaderboard
-
-<p align="center">
-  <img src="docs/figure/leaderboard.png" alt="Model Leaderboard" width="800">
-</p>
-
-*Last updated: March 2026*
 
 ---
 
